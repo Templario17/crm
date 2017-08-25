@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{titulo}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+        body { padding-top: 60px; margin-bottom: 60px; } 
+    </style>
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  
+  <div class="container"> 
+    <div class="starter-template">
+      
+      <!-- contenido -->
+      <div class="panel panel-primary">
+      
+        <!-- PANEL CABECERA DEL FORMULARIO -->
+        <div class="panel-heading">
+          <h4><span class="glyphicon glyphicon-pencil"></span> <b>Agregar nuevo producto</b></h4>
+        </div>
+
+
+        <div class="panel-body">
+        
+          <!-- errores -->
+          <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" 
+              aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            
+            <p><b>Se han producido algunos errores:</b></p>
+            <p>{errores}</p>
+          </div>
+          <!-- errores -->
+        
+          <form class="form-horizontal" method="post" action="/producto/agregar">
+          
+            <!-- COMBO -->
+            <div class="form-group">
+                <label for="categoria" class="col-sm-3 control-label">Categoría: </label>
+                <div class="col-sm-3">
+                  <select name="categoria" id="categoria" class="form-control">
+                    <option value="1">Indumentaria</option>
+                    <option value="2">Deporte y tiempo libre</option>
+                    <option value="3">Herramientas</option>
+                  </select>
+                </div>
+            </div>
+            
+            <!-- CAMPO DE TEXTO -->
+            <div class="form-group">
+                <label for="texto" class="col-sm-3 control-label">Nombre del producto: </label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="texto" name="texto">
+                </div>
+            </div>
+            
+            <!-- CAMPO DE PRECIO -->
+            <div class="form-group">
+                <label for="precio" class="col-sm-3 control-label">Precio: </label>
+                <div class="col-sm-2">
+                  <div class="input-group">
+                    <div class="input-group-addon">$</div>
+                    <input type="text" class="form-control" id="precio" name="precio">
+                  </div>
+                </div>
+            </div>
+            
+            <!-- TEXTAREA -->
+            <div class="form-group">
+                <label for="cajon" class="col-sm-3 control-label">Descripción: </label>
+                <div class="col-sm-5">
+                  <textarea rows="7" class="form-control" id="cajon" name="cajon"></textarea>
+                </div>
+            </div>
+            
+            
+            <!-- FILE -->
+            <div class="form-group">
+                <label for="archivo" class="col-sm-3 control-label">Imagen principal: </label>
+                <div class="col-sm-5">
+                  <input type="file" id="archivo" name="archivo" accept=".png, .jpg">
+                </div>
+            </div>
+            
+            
+            <!-- BOTÓN -->
+            <div class="form-group">
+                <label for="archivo" class="col-sm-3 control-label">&nbsp;</label>
+                <div class="col-sm-5">
+                  <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+            
+
+          </form>
+        </div>
+      
+      </div>
+      <!-- contenido -->
+
+
+    </div>
+  </div>
+ 
+  </body>
+</html>

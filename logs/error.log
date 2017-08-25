@@ -1,0 +1,381 @@
+[Wed Aug 09 23:01:07.220734 2017] [cgi:error] [pid 1213] [client 127.0.0.1:57316] AH01215: Traceback (most recent call last):
+[Wed Aug 09 23:01:07.220877 2017] [cgi:error] [pid 1213] [client 127.0.0.1:57316] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Aug 09 23:01:07.220893 2017] [cgi:error] [pid 1213] [client 127.0.0.1:57316] AH01215:     recurso = uri[2]
+[Wed Aug 09 23:01:07.220909 2017] [cgi:error] [pid 1213] [client 127.0.0.1:57316] AH01215: IndexError: list index out of range
+[Wed Aug 09 23:01:07.223038 2017] [cgi:error] [pid 1213] [client 127.0.0.1:57316] End of script output before headers: xfc.py
+[Wed Aug 09 23:01:07.497878 2017] [cgi:error] [pid 1214] [client 127.0.0.1:57318] AH01215: Traceback (most recent call last):
+[Wed Aug 09 23:01:07.497998 2017] [cgi:error] [pid 1214] [client 127.0.0.1:57318] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Aug 09 23:01:07.498011 2017] [cgi:error] [pid 1214] [client 127.0.0.1:57318] AH01215:     recurso = uri[2]
+[Wed Aug 09 23:01:07.498028 2017] [cgi:error] [pid 1214] [client 127.0.0.1:57318] AH01215: IndexError: list index out of range
+[Wed Aug 09 23:01:07.501912 2017] [cgi:error] [pid 1214] [client 127.0.0.1:57318] End of script output before headers: xfc.py
+[Wed Aug 09 23:01:07.694623 2017] [cgi:error] [pid 1215] [client 127.0.0.1:57320] AH01215: Traceback (most recent call last):
+[Wed Aug 09 23:01:07.694741 2017] [cgi:error] [pid 1215] [client 127.0.0.1:57320] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Aug 09 23:01:07.694754 2017] [cgi:error] [pid 1215] [client 127.0.0.1:57320] AH01215:     recurso = uri[2]
+[Wed Aug 09 23:01:07.694771 2017] [cgi:error] [pid 1215] [client 127.0.0.1:57320] AH01215: IndexError: list index out of range
+[Wed Aug 09 23:01:07.696272 2017] [cgi:error] [pid 1215] [client 127.0.0.1:57320] End of script output before headers: xfc.py
+[Wed Aug 09 23:02:59.869818 2017] [cgi:error] [pid 1212] [client 127.0.0.1:57322] AH01215: Traceback (most recent call last):
+[Wed Aug 09 23:02:59.869938 2017] [cgi:error] [pid 1212] [client 127.0.0.1:57322] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Aug 09 23:02:59.869948 2017] [cgi:error] [pid 1212] [client 127.0.0.1:57322] AH01215:     recurso = uri[2]
+[Wed Aug 09 23:02:59.869958 2017] [cgi:error] [pid 1212] [client 127.0.0.1:57322] AH01215: IndexError: list index out of range
+[Wed Aug 09 23:02:59.871774 2017] [cgi:error] [pid 1212] [client 127.0.0.1:57322] End of script output before headers: xfc.py
+[Thu Aug 10 06:56:44.672125 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57698] AH01215: Traceback (most recent call last):
+[Thu Aug 10 06:56:44.672272 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57698] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Thu Aug 10 06:56:44.672288 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57698] AH01215:     recurso = uri[2]
+[Thu Aug 10 06:56:44.672306 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57698] AH01215: IndexError: list index out of range
+[Thu Aug 10 06:56:44.674298 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57698] End of script output before headers: xfc.py
+[Thu Aug 10 06:56:45.303594 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57700] AH01215: Traceback (most recent call last):
+[Thu Aug 10 06:56:45.303723 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57700] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Thu Aug 10 06:56:45.303742 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57700] AH01215:     recurso = uri[2]
+[Thu Aug 10 06:56:45.303761 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57700] AH01215: IndexError: list index out of range
+[Thu Aug 10 06:56:45.305436 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57700] End of script output before headers: xfc.py
+[Thu Aug 10 07:00:43.626241 2017] [cgi:error] [pid 1202] [client 127.0.0.1:57788] AH01215: Traceback (most recent call last):
+[Thu Aug 10 07:00:43.626366 2017] [cgi:error] [pid 1202] [client 127.0.0.1:57788] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Thu Aug 10 07:00:43.626385 2017] [cgi:error] [pid 1202] [client 127.0.0.1:57788] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Thu Aug 10 07:00:43.626416 2017] [cgi:error] [pid 1202] [client 127.0.0.1:57788] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 49
+[Thu Aug 10 07:00:43.626482 2017] [cgi:error] [pid 1202] [client 127.0.0.1:57788] AH01215: SyntaxError: Non-ASCII character '\\xc3' in file /home/debian/server/crm/rootsystem/application/modules/domicilio.py on line 49, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[Thu Aug 10 07:00:43.628027 2017] [cgi:error] [pid 1202] [client 127.0.0.1:57788] End of script output before headers: xfc.py
+[Thu Aug 10 07:00:58.525953 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57790] AH01215: Traceback (most recent call last):
+[Thu Aug 10 07:00:58.526026 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57790] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Aug 10 07:00:58.526045 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57790] AH01215:     getattr(c, recurso)()
+[Thu Aug 10 07:00:58.526070 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57790] AH01215: AttributeError: 'ProductoController' object has no attribute ''
+[Thu Aug 10 07:00:58.527706 2017] [cgi:error] [pid 1199] [client 127.0.0.1:57790] End of script output before headers: xfc.py
+[Thu Aug 10 07:04:37.268530 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57796] AH01215: Traceback (most recent call last):
+[Thu Aug 10 07:04:37.268607 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57796] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Thu Aug 10 07:04:37.268639 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57796] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Thu Aug 10 07:04:37.268669 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57796] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 49
+[Thu Aug 10 07:04:37.268722 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57796] AH01215: SyntaxError: Non-ASCII character '\\xc3' in file /home/debian/server/crm/rootsystem/application/modules/domicilio.py on line 49, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[Thu Aug 10 07:04:37.270348 2017] [cgi:error] [pid 1203] [client 127.0.0.1:57796] End of script output before headers: xfc.py
+[Thu Aug 10 07:05:33.482487 2017] [cgi:error] [pid 5190] [client 127.0.0.1:57798] AH01215: Traceback (most recent call last):
+[Thu Aug 10 07:05:33.482580 2017] [cgi:error] [pid 5190] [client 127.0.0.1:57798] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Thu Aug 10 07:05:33.482612 2017] [cgi:error] [pid 5190] [client 127.0.0.1:57798] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Thu Aug 10 07:05:33.482655 2017] [cgi:error] [pid 5190] [client 127.0.0.1:57798] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 1, in <module>
+[Thu Aug 10 07:05:33.482673 2017] [cgi:error] [pid 5190] [client 127.0.0.1:57798] AH01215:     class Domicilio(Object):
+[Thu Aug 10 07:05:33.482697 2017] [cgi:error] [pid 5190] [client 127.0.0.1:57798] AH01215: NameError: name 'Object' is not defined
+[Thu Aug 10 07:05:33.484212 2017] [cgi:error] [pid 5190] [client 127.0.0.1:57798] End of script output before headers: xfc.py
+[Thu Aug 10 07:06:45.377635 2017] [cgi:error] [pid 1201] [client 127.0.0.1:57802] AH01215: Traceback (most recent call last):
+[Thu Aug 10 07:06:45.377720 2017] [cgi:error] [pid 1201] [client 127.0.0.1:57802] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Aug 10 07:06:45.377739 2017] [cgi:error] [pid 1201] [client 127.0.0.1:57802] AH01215:     getattr(c, recurso)()
+[Thu Aug 10 07:06:45.377783 2017] [cgi:error] [pid 1201] [client 127.0.0.1:57802] AH01215: AttributeError: 'DomicilioController' object has no attribute 'guardado'
+[Thu Aug 10 07:06:45.379412 2017] [cgi:error] [pid 1201] [client 127.0.0.1:57802] End of script output before headers: xfc.py
+[Tue Aug 22 19:27:21.213952 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40280] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:27:21.420995 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40280] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Tue Aug 22 19:27:21.421035 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40280] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Tue Aug 22 19:27:21.421051 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40280] AH01215: ImportError: No module named agregar
+[Tue Aug 22 19:27:21.421095 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40280] End of script output before headers: xfc.py
+[Tue Aug 22 19:27:21.740665 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40282] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:27:21.740755 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40282] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Aug 22 19:27:21.740768 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40282] AH01215:     recurso = uri[2]
+[Tue Aug 22 19:27:21.740803 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40282] AH01215: IndexError: list index out of range
+[Tue Aug 22 19:27:21.742506 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40282] End of script output before headers: xfc.py
+[Tue Aug 22 19:27:21.778767 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40284] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:27:21.778851 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40284] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Aug 22 19:27:21.778865 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40284] AH01215:     recurso = uri[2]
+[Tue Aug 22 19:27:21.778884 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40284] AH01215: IndexError: list index out of range
+[Tue Aug 22 19:27:21.780398 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40284] End of script output before headers: xfc.py
+[Tue Aug 22 19:27:34.203546 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40286] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:27:34.203615 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40286] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Tue Aug 22 19:27:34.203633 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40286] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Tue Aug 22 19:27:34.203655 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40286] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 3, in <module>
+[Tue Aug 22 19:27:34.203664 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40286] AH01215:     from core.db import DBQuery
+[Tue Aug 22 19:27:34.203675 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40286] AH01215: ImportError: No module named core.db
+[Tue Aug 22 19:27:34.205944 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40286] End of script output before headers: xfc.py
+[Tue Aug 22 19:27:40.192979 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40288] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:27:40.193066 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40288] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Tue Aug 22 19:27:40.193100 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40288] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Tue Aug 22 19:27:40.193141 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40288] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 3, in <module>
+[Tue Aug 22 19:27:40.193174 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40288] AH01215:     from core.db import DBQuery
+[Tue Aug 22 19:27:40.193192 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40288] AH01215: ImportError: No module named core.db
+[Tue Aug 22 19:27:40.195504 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40288] End of script output before headers: xfc.py
+[Tue Aug 22 19:27:52.197765 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40290] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:27:52.197839 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40290] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Tue Aug 22 19:27:52.197872 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40290] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Tue Aug 22 19:27:52.197914 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40290] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 3, in <module>
+[Tue Aug 22 19:27:52.197931 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40290] AH01215:     from core.db import DBQuery
+[Tue Aug 22 19:27:52.197950 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40290] AH01215: ImportError: No module named core.db
+[Tue Aug 22 19:27:52.200226 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40290] End of script output before headers: xfc.py
+[Tue Aug 22 19:28:07.693209 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40292] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:28:07.693270 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40292] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Aug 22 19:28:07.693279 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40292] AH01215:     recurso = uri[2]
+[Tue Aug 22 19:28:07.693289 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40292] AH01215: IndexError: list index out of range
+[Tue Aug 22 19:28:07.694931 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40292] End of script output before headers: xfc.py
+[Tue Aug 22 19:29:37.338793 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40302] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:29:37.338855 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40302] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Tue Aug 22 19:29:37.338874 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40302] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Tue Aug 22 19:29:37.338895 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40302] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 3, in <module>
+[Tue Aug 22 19:29:37.338904 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40302] AH01215:     from core.db import DBQuery
+[Tue Aug 22 19:29:37.338915 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40302] AH01215: ImportError: No module named core.db
+[Tue Aug 22 19:29:37.341930 2017] [cgi:error] [pid 2388] [client 127.0.0.1:40302] End of script output before headers: xfc.py
+[Tue Aug 22 19:29:42.989271 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40304] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:29:42.989332 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40304] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Tue Aug 22 19:29:42.989350 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40304] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Tue Aug 22 19:29:42.989372 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40304] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 3, in <module>
+[Tue Aug 22 19:29:42.989381 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40304] AH01215:     from core.db import DBQuery
+[Tue Aug 22 19:29:42.989391 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40304] AH01215: ImportError: No module named core.db
+[Tue Aug 22 19:29:42.991690 2017] [cgi:error] [pid 2387] [client 127.0.0.1:40304] End of script output before headers: xfc.py
+[Tue Aug 22 19:29:52.169522 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40306] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:29:52.169584 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40306] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Aug 22 19:29:52.169593 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40306] AH01215:     recurso = uri[2]
+[Tue Aug 22 19:29:52.169603 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40306] AH01215: IndexError: list index out of range
+[Tue Aug 22 19:29:52.171186 2017] [cgi:error] [pid 2390] [client 127.0.0.1:40306] End of script output before headers: xfc.py
+[Tue Aug 22 19:29:56.360616 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40308] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:29:56.360677 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40308] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Aug 22 19:29:56.360685 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40308] AH01215:     recurso = uri[2]
+[Tue Aug 22 19:29:56.360695 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40308] AH01215: IndexError: list index out of range
+[Tue Aug 22 19:29:56.362308 2017] [cgi:error] [pid 2389] [client 127.0.0.1:40308] End of script output before headers: xfc.py
+[Tue Aug 22 19:30:05.297278 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40310] AH01215: Traceback (most recent call last):
+[Tue Aug 22 19:30:05.297338 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40310] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Tue Aug 22 19:30:05.297357 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40310] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Tue Aug 22 19:30:05.297379 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40310] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 3, in <module>
+[Tue Aug 22 19:30:05.297388 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40310] AH01215:     from core.db import DBQuery
+[Tue Aug 22 19:30:05.297398 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40310] AH01215: ImportError: No module named core.db
+[Tue Aug 22 19:30:05.299602 2017] [cgi:error] [pid 2386] [client 127.0.0.1:40310] End of script output before headers: xfc.py
+[Wed Aug 23 10:31:32.356526 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37888] AH01215: Traceback (most recent call last):
+[Wed Aug 23 10:31:32.388838 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37888] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Aug 23 10:31:32.388860 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37888] AH01215:     recurso = uri[2]
+[Wed Aug 23 10:31:32.388872 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37888] AH01215: IndexError: list index out of range
+[Wed Aug 23 10:31:32.388906 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37888] End of script output before headers: xfc.py
+[Wed Aug 23 10:31:32.708965 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37890] AH01215: Traceback (most recent call last):
+[Wed Aug 23 10:31:32.709033 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37890] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Aug 23 10:31:32.709042 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37890] AH01215:     recurso = uri[2]
+[Wed Aug 23 10:31:32.709053 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37890] AH01215: IndexError: list index out of range
+[Wed Aug 23 10:31:32.711446 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37890] End of script output before headers: xfc.py
+[Wed Aug 23 10:31:37.954402 2017] [cgi:error] [pid 22695] [client 127.0.0.1:37892] AH01215: Traceback (most recent call last):
+[Wed Aug 23 10:31:37.954486 2017] [cgi:error] [pid 22695] [client 127.0.0.1:37892] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Aug 23 10:31:37.954505 2017] [cgi:error] [pid 22695] [client 127.0.0.1:37892] AH01215:     getattr(c, recurso)()
+[Wed Aug 23 10:31:37.954546 2017] [cgi:error] [pid 22695] [client 127.0.0.1:37892] AH01215: AttributeError: 'DomicilioController' object has no attribute ''
+[Wed Aug 23 10:31:37.956959 2017] [cgi:error] [pid 22695] [client 127.0.0.1:37892] End of script output before headers: xfc.py
+[Wed Aug 23 10:32:03.878637 2017] [cgi:error] [pid 22697] [client 127.0.0.1:37922] AH01215: Traceback (most recent call last):
+[Wed Aug 23 10:32:03.878723 2017] [cgi:error] [pid 22697] [client 127.0.0.1:37922] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 16, in <module>
+[Wed Aug 23 10:32:03.878741 2017] [cgi:error] [pid 22697] [client 127.0.0.1:37922] AH01215:     c = getattr(m, controlador)()
+[Wed Aug 23 10:32:03.878766 2017] [cgi:error] [pid 22697] [client 127.0.0.1:37922] AH01215: AttributeError: 'module' object has no attribute 'Controller'
+[Wed Aug 23 10:32:03.880893 2017] [cgi:error] [pid 22697] [client 127.0.0.1:37922] End of script output before headers: xfc.py
+[Wed Aug 23 10:32:11.110643 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37924] AH01215: Traceback (most recent call last):
+[Wed Aug 23 10:32:11.110720 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37924] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Wed Aug 23 10:32:11.110752 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37924] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Wed Aug 23 10:32:11.110789 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37924] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 3, in <module>
+[Wed Aug 23 10:32:11.110807 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37924] AH01215:     from core.db import DBQuery
+[Wed Aug 23 10:32:11.110826 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37924] AH01215: ImportError: No module named core.db
+[Wed Aug 23 10:32:11.113538 2017] [cgi:error] [pid 22693] [client 127.0.0.1:37924] End of script output before headers: xfc.py
+[Wed Aug 23 10:35:11.039254 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37930] AH01215: Traceback (most recent call last):
+[Wed Aug 23 10:35:11.039338 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37930] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Wed Aug 23 10:35:11.039369 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37930] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Wed Aug 23 10:35:11.039405 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37930] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 3, in <module>
+[Wed Aug 23 10:35:11.039423 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37930] AH01215:     from core.db import DBQuery
+[Wed Aug 23 10:35:11.039444 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37930] AH01215: ImportError: No module named core.db
+[Wed Aug 23 10:35:11.041989 2017] [cgi:error] [pid 22694] [client 127.0.0.1:37930] End of script output before headers: xfc.py
+[Wed Aug 23 11:25:16.021154 2017] [cgi:error] [pid 22696] [client 127.0.0.1:38422] AH01215: Traceback (most recent call last):
+[Wed Aug 23 11:25:16.074359 2017] [cgi:error] [pid 22696] [client 127.0.0.1:38422] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Aug 23 11:25:16.074383 2017] [cgi:error] [pid 22696] [client 127.0.0.1:38422] AH01215:     recurso = uri[2]
+[Wed Aug 23 11:25:16.074394 2017] [cgi:error] [pid 22696] [client 127.0.0.1:38422] AH01215: IndexError: list index out of range
+[Wed Aug 23 11:25:16.074416 2017] [cgi:error] [pid 22696] [client 127.0.0.1:38422] End of script output before headers: xfc.py
+[Wed Aug 23 11:25:16.902480 2017] [cgi:error] [pid 22697] [client 127.0.0.1:38424] AH01215: Traceback (most recent call last):
+[Wed Aug 23 11:25:16.902577 2017] [cgi:error] [pid 22697] [client 127.0.0.1:38424] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Aug 23 11:25:16.902611 2017] [cgi:error] [pid 22697] [client 127.0.0.1:38424] AH01215:     recurso = uri[2]
+[Wed Aug 23 11:25:16.902629 2017] [cgi:error] [pid 22697] [client 127.0.0.1:38424] AH01215: IndexError: list index out of range
+[Wed Aug 23 11:25:16.904333 2017] [cgi:error] [pid 22697] [client 127.0.0.1:38424] End of script output before headers: xfc.py
+[Wed Aug 23 11:31:35.058848 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215: Traceback (most recent call last):
+[Wed Aug 23 11:31:35.058940 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Aug 23 11:31:35.058951 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215:     getattr(c, recurso)()
+[Wed Aug 23 11:31:35.058972 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 53, in guardar
+[Wed Aug 23 11:31:35.058984 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215:     denominacion = form['denominacion'].value
+[Wed Aug 23 11:31:35.058999 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__
+[Wed Aug 23 11:31:35.360652 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215:     raise KeyError, key
+[Wed Aug 23 11:31:35.360688 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215: KeyError
+[Wed Aug 23 11:31:35.360698 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215: : 
+[Wed Aug 23 11:31:35.360711 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] AH01215: 'denominacion'
+[Wed Aug 23 11:31:35.364580 2017] [cgi:error] [pid 14316] [client 127.0.0.1:38468] End of script output before headers: xfc.py
+[Thu Aug 24 11:57:46.321344 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34610] AH01215: Traceback (most recent call last):
+[Thu Aug 24 11:57:46.369544 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34610] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Thu Aug 24 11:57:46.369591 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34610] AH01215:     recurso = uri[2]
+[Thu Aug 24 11:57:46.369619 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34610] AH01215: IndexError: list index out of range
+[Thu Aug 24 11:57:46.369644 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34610] End of script output before headers: xfc.py
+[Thu Aug 24 12:08:50.818190 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] AH01215: Traceback (most recent call last):, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:08:50.818278 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:08:50.818298 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] AH01215:     getattr(c, recurso)(), referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:08:50.818334 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 53, in guardar, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:08:50.818356 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] AH01215:     denominacion = form['denominacion'].value, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:08:50.818384 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:08:50.840378 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] AH01215:     raise KeyError, key, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:08:50.840417 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] AH01215: KeyError: 'denominacion', referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:08:50.843590 2017] [cgi:error] [pid 6550] [client 127.0.0.1:34720] End of script output before headers: xfc.py, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.495614 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] AH01215: Traceback (most recent call last):, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.495692 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.495707 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] AH01215:     getattr(c, recurso)(), referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.495739 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 59, in guardar, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.495753 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] AH01215:     self.model.insert(), referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.495787 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 20, in insert, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.495805 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] AH01215:     self.producto_id = DBQuery(sql).execute(), referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.495822 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] AH01215: TypeError: object() takes no parameters, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:09:04.498540 2017] [cgi:error] [pid 1160] [client 127.0.0.1:34722] End of script output before headers: xfc.py, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.958153 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] AH01215: Traceback (most recent call last):, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.958239 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.958255 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] AH01215:     getattr(c, recurso)(), referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.958292 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 59, in guardar, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.958306 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] AH01215:     self.model.insert(), referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.958338 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 20, in insert, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.958358 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] AH01215:     self.producto_id = DBQuery(sql).execute(), referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.958376 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] AH01215: TypeError: object() takes no parameters, referer: http://crm.local/producto/agregar
+[Thu Aug 24 12:11:11.961107 2017] [cgi:error] [pid 1161] [client 127.0.0.1:34728] End of script output before headers: xfc.py, referer: http://crm.local/producto/agregar
+[Fri Aug 25 10:05:25.876369 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58366] malformed header from script 'xfc.py': Bad header: content-type. text/html; chars
+[Fri Aug 25 10:05:26.318397 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58368] AH01215: Traceback (most recent call last):
+[Fri Aug 25 10:05:26.318527 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58368] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Fri Aug 25 10:05:26.318543 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58368] AH01215:     recurso = uri[2]
+[Fri Aug 25 10:05:26.318561 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58368] AH01215: IndexError: list index out of range
+[Fri Aug 25 10:05:26.320933 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58368] End of script output before headers: xfc.py
+[Fri Aug 25 10:08:19.424713 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215: Traceback (most recent call last):
+[Fri Aug 25 10:08:19.424857 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Fri Aug 25 10:08:19.424877 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215:     getattr(c, recurso)()
+[Fri Aug 25 10:08:19.424914 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 59, in guardar
+[Fri Aug 25 10:08:19.424933 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215:     numero = form['numero'].value
+[Fri Aug 25 10:08:19.424962 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__
+[Fri Aug 25 10:08:19.446568 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215:     raise KeyError, key
+[Fri Aug 25 10:08:19.446605 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215: KeyError: 
+[Fri Aug 25 10:08:19.446616 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] AH01215: 'numero'
+[Fri Aug 25 10:08:19.450406 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58376] End of script output before headers: xfc.py
+[Fri Aug 25 10:08:26.554343 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58378] malformed header from script 'xfc.py': Bad header: content-type. text/html; chars
+[Fri Aug 25 10:08:55.390479 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] AH01215: Traceback (most recent call last):
+[Fri Aug 25 10:08:55.390590 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Fri Aug 25 10:08:55.390601 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] AH01215:     getattr(c, recurso)()
+[Fri Aug 25 10:08:55.390625 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 59, in guardar
+[Fri Aug 25 10:08:55.390636 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] AH01215:     numero = form['numero'].value
+[Fri Aug 25 10:08:55.390653 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__
+[Fri Aug 25 10:08:55.390663 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] AH01215:     raise KeyError, key
+[Fri Aug 25 10:08:55.390674 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] AH01215: KeyError: 'numero'
+[Fri Aug 25 10:08:55.393542 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58382] End of script output before headers: xfc.py
+[Fri Aug 25 10:10:38.045696 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58388] malformed header from script 'xfc.py': Bad header: content-type. text/html; chars
+[Fri Aug 25 10:13:24.307486 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58412] malformed header from script 'xfc.py': Bad header: content-type. text/html; chars
+[Fri Aug 25 10:15:18.231853 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:15:18.231936 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:15:18.231955 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:15:18.231989 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:15:18.232006 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:15:18.232040 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:15:18.232054 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:15:18.232067 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:15:18.234823 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58420] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.380053 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.380133 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.380152 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.380188 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.380208 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.380236 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.380254 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.380270 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:28:53.383496 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58438] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.184588 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.184669 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.184687 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.184725 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.184745 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.184768 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.184784 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.184796 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:36:51.187727 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58496] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.555603 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.555693 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.555712 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.555749 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.555770 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.555797 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.555814 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.555827 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:44.558675 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58578] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.854961 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.855035 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.855054 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.855088 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.855106 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.855129 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.855141 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.855153 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:42:52.857925 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58580] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.857054 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.857147 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.857167 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.857204 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.857235 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.857261 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.857275 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.857287 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:45:27.861404 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58584] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.711056 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.711143 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.711161 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.711201 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.711221 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.711247 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.711266 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.711280 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:50.715613 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58600] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.321914 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.321992 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.322011 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.322048 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.322066 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.322094 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.322111 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.322124 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:54:57.325164 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58602] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.212131 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.212219 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.212237 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.212276 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 63, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.212297 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] AH01215:     ciudad = form['ciudad'].value, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.212324 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.212339 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.212354 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] AH01215: KeyError: 'ciudad', referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:55:58.215332 2017] [cgi:error] [pid 31627] [client 127.0.0.1:58604] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.017590 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.017675 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.017694 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.017731 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 73, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.017748 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] AH01215:     self.model.insert(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.017782 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 23, in insert, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.017805 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] AH01215:     self.domicilio_id = DBQuery(sql).execute(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.017827 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] AH01215: TypeError: object() takes no parameters, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:30.021101 2017] [cgi:error] [pid 1273] [client 127.0.0.1:58614] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.525355 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.525436 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.525454 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.525488 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 73, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.525514 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] AH01215:     self.model.insert(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.525546 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 23, in insert, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.525566 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] AH01215:     self.domicilio_id = DBQuery(sql).execute(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.525584 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] AH01215: TypeError: object() takes no parameters, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 10:56:57.528437 2017] [cgi:error] [pid 1275] [client 127.0.0.1:58616] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.094504 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.094597 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.094616 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.094652 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 73, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.094668 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] AH01215:     self.model.insert(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.094704 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 23, in insert, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.094727 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] AH01215:     self.domicilio_id = DBQuery(sql).execute(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.094747 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] AH01215: TypeError: object() takes no parameters, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:02:20.097325 2017] [cgi:error] [pid 1274] [client 127.0.0.1:58628] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.386478 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.386553 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.386565 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.386594 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 73, in guardar, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.386609 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] AH01215:     self.model.insert(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.386643 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 23, in insert, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.386668 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] AH01215:     self.domicilio_id = DBQuery(sql).execute(), referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.386694 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] AH01215: TypeError: object() takes no parameters, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:14:52.390591 2017] [cgi:error] [pid 1276] [client 127.0.0.1:58686] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar/
+[Fri Aug 25 11:40:21.118111 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] AH01215: Traceback (most recent call last):, referer: http://crm.local/producto/agregar
+[Fri Aug 25 11:40:21.118199 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/producto/agregar
+[Fri Aug 25 11:40:21.118219 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] AH01215:     getattr(c, recurso)(), referer: http://crm.local/producto/agregar
+[Fri Aug 25 11:40:21.118258 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 63, in guardar, referer: http://crm.local/producto/agregar
+[Fri Aug 25 11:40:21.118275 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] AH01215:     self.model.insert(), referer: http://crm.local/producto/agregar
+[Fri Aug 25 11:40:21.118313 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 20, in insert, referer: http://crm.local/producto/agregar
+[Fri Aug 25 11:40:21.118335 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] AH01215:     self.producto_id = DBQuery(sql).execute(), referer: http://crm.local/producto/agregar
+[Fri Aug 25 11:40:21.118356 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] AH01215: TypeError: object() takes no parameters, referer: http://crm.local/producto/agregar
+[Fri Aug 25 11:40:21.121132 2017] [cgi:error] [pid 1272] [client 127.0.0.1:58720] End of script output before headers: xfc.py, referer: http://crm.local/producto/agregar
+[Fri Aug 25 14:22:36.940538 2017] [cgi:error] [pid 1272] [client 127.0.0.1:59348] AH01215: Traceback (most recent call last):
+[Fri Aug 25 14:22:36.992076 2017] [cgi:error] [pid 1272] [client 127.0.0.1:59348] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Fri Aug 25 14:22:36.992097 2017] [cgi:error] [pid 1272] [client 127.0.0.1:59348] AH01215:     recurso = uri[2]
+[Fri Aug 25 14:22:36.992111 2017] [cgi:error] [pid 1272] [client 127.0.0.1:59348] AH01215: IndexError: list index out of range
+[Fri Aug 25 14:22:36.992134 2017] [cgi:error] [pid 1272] [client 127.0.0.1:59348] End of script output before headers: xfc.py
+[Fri Aug 25 14:25:21.813629 2017] [cgi:error] [pid 1274] [client 127.0.0.1:59372] AH01215: /home/debian/server/crm/rootsystem/application/core/db.py:16: Warning: Out of range value for column 'precio' at row 1, referer: http://crm.local/producto/agregar
+[Fri Aug 25 14:25:21.813686 2017] [cgi:error] [pid 1274] [client 127.0.0.1:59372] AH01215:   cursor.execute(self.sql), referer: http://crm.local/producto/agregar
+[Fri Aug 25 14:31:11.314364 2017] [cgi:error] [pid 1275] [client 127.0.0.1:59378] AH01215: /home/debian/server/crm/rootsystem/application/core/db.py:16: Warning: Out of range value for column 'precio' at row 1, referer: http://crm.local/producto/agregar
+[Fri Aug 25 14:31:11.314422 2017] [cgi:error] [pid 1275] [client 127.0.0.1:59378] AH01215:   cursor.execute(self.sql), referer: http://crm.local/producto/agregar

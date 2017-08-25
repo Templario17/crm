@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agregar Domicilio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+      <div class="container">
+          <h1><span class="glyphicon glyphicon-pencil"></span>Agregar Datos Domicilio</h1>
+        <div class="col-md-4">
+        <form method="post" action="/domicilio/guardar" class="form-horizontal">
+          <div class="form-group">
+            <label for="numero">Numero del Domicilio </label>
+            <input type="text" class="form-control" id="numero" name="numero">
+          </div>
+          <div class="form-group">
+            <label for="puerta">Numero de puerta</label>
+            <input type="text" class="form-control" id="puerta" name="puerta">
+          </div>
+          <div class="form-group">
+            <label for="calle">Numero de calle</label>
+            <input type="text" class="form-control" id="calle" name="calle">
+          </div>
+          <div class="form-group">
+            <label for="piso"> Numero de Piso</label>
+            <input type="text" class="form-control" id="piso" name="piso">
+          </div>
+          <div class="form-group">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" class="form-control" id="ciudad" name="ciudad">
+          </div>
+          <div class="form-group">
+            <label for="cp">Codigo Postal</label>
+            <input type="text" class="form-control" id="cp" name="cp">
+          </div>
+          <div class="form-group">
+              <button type="submit" class="btn btn-primary" name="guardar">&nbsp;
+              <span class="glyphicon glyphicon-share-alt"></span> Guardar</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
