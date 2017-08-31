@@ -1,4 +1,6 @@
 from cgi import FieldStorage
+from string import Template
+from os import environ
 
 from core.db import DBQuery
 
@@ -23,7 +25,15 @@ class Producto(object):
         pass
 
     def select(self):
-        pass
+        sql = """
+              SELECT denominacion, precio
+              FROM producto
+              WHERE producto_id = {}
+        """.format(self.producto_id)
+        resultado = DBQuery().execute(sql)[0]
+        self.denominacion = resultado[0]
+        self.precio = resultado[1]
+
 
     def delete(self):
         pass
@@ -42,6 +52,15 @@ class ProductoView(object):
         print "Content-type: text/html; charset=utf-8"
         print ""
         print "Producto Guardado"
+
+    def ver(self, objeto):
+        diccionario = vars(objeto)
+        with open("/home/debian/server/crm/rootsystem/static/ver_producto.html")as f: 
+            html = f.read()
+        render = Template(html).safe_substitute(diccionario)
+        print "content-type: text/html; charset=utf-8"
+        print ""
+        print render
 
 class ProductoController(object):
 
@@ -62,6 +81,12 @@ class ProductoController(object):
 
         self.model.insert()
         self.view.guardar()
+    
+    def ver(self):
+        obj_id = int(environ['REQUEST_URI'].split('/')[-1])
+        self.model.producto_id = obj_id
+        self.model.select()
+        self.view.ver(self.model)
 
 
 class ProductoHelper(object):

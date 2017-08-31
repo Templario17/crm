@@ -10,6 +10,6 @@ CREATE TABLE IF NOT EXISTS domicilio(
   puerta VARCHAR(100),
   calle VARCHAR(100),
   piso INT(11),
-  cuidad VARCHAR(25),
+  ciudad VARCHAR(25),
   cp VARCHAR(20)
 )ENGINE=InnoDB

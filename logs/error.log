@@ -379,3 +379,175 @@
 [Fri Aug 25 14:25:21.813686 2017] [cgi:error] [pid 1274] [client 127.0.0.1:59372] AH01215:   cursor.execute(self.sql), referer: http://crm.local/producto/agregar
 [Fri Aug 25 14:31:11.314364 2017] [cgi:error] [pid 1275] [client 127.0.0.1:59378] AH01215: /home/debian/server/crm/rootsystem/application/core/db.py:16: Warning: Out of range value for column 'precio' at row 1, referer: http://crm.local/producto/agregar
 [Fri Aug 25 14:31:11.314422 2017] [cgi:error] [pid 1275] [client 127.0.0.1:59378] AH01215:   cursor.execute(self.sql), referer: http://crm.local/producto/agregar
+[Tue Aug 29 15:07:43.286436 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47146] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:07:43.318105 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47146] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Aug 29 15:07:43.318127 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47146] AH01215:     getattr(c, recurso)()
+[Tue Aug 29 15:07:43.318147 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47146] AH01215: AttributeError: 'DomicilioController' object has no attribute 'ver1'
+[Tue Aug 29 15:07:43.342447 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47146] End of script output before headers: xfc.py
+[Tue Aug 29 15:07:43.893442 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47148] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:07:43.893547 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47148] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Aug 29 15:07:43.893562 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47148] AH01215:     recurso = uri[2]
+[Tue Aug 29 15:07:43.893578 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47148] AH01215: IndexError: list index out of range
+[Tue Aug 29 15:07:43.895914 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47148] End of script output before headers: xfc.py
+[Tue Aug 29 15:07:51.636673 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47150] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:07:51.636764 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47150] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Aug 29 15:07:51.636780 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47150] AH01215:     getattr(c, recurso)()
+[Tue Aug 29 15:07:51.636816 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47150] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 100, in ver
+[Tue Aug 29 15:07:51.636842 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47150] AH01215:     obj_id = int(environ['REQUEST_URI'].split("/")[-1])
+[Tue Aug 29 15:07:51.636863 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47150] AH01215: NameError: global name 'environ' is not defined
+[Tue Aug 29 15:07:51.640494 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47150] End of script output before headers: xfc.py
+[Tue Aug 29 15:09:38.452190 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47156] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:09:38.452281 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47156] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Aug 29 15:09:38.452300 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47156] AH01215:     getattr(c, recurso)()
+[Tue Aug 29 15:09:38.452335 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47156] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 100, in ver
+[Tue Aug 29 15:09:38.452362 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47156] AH01215:     obj_id = int(environ['REQUEST_URI'].split("/")[-1])
+[Tue Aug 29 15:09:38.452384 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47156] AH01215: NameError: global name 'environ' is not defined
+[Tue Aug 29 15:09:38.456418 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47156] End of script output before headers: xfc.py
+[Tue Aug 29 15:09:44.350277 2017] [cgi:error] [pid 3784] [client 127.0.0.1:47158] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:09:44.350351 2017] [cgi:error] [pid 3784] [client 127.0.0.1:47158] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Aug 29 15:09:44.350361 2017] [cgi:error] [pid 3784] [client 127.0.0.1:47158] AH01215:     getattr(c, recurso)()
+[Tue Aug 29 15:09:44.350383 2017] [cgi:error] [pid 3784] [client 127.0.0.1:47158] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 100, in ver
+[Tue Aug 29 15:09:44.350399 2017] [cgi:error] [pid 3784] [client 127.0.0.1:47158] AH01215:     obj_id = int(environ['REQUEST_URI'].split("/")[-1])
+[Tue Aug 29 15:09:44.350412 2017] [cgi:error] [pid 3784] [client 127.0.0.1:47158] AH01215: NameError: global name 'environ' is not defined
+[Tue Aug 29 15:09:44.353885 2017] [cgi:error] [pid 3784] [client 127.0.0.1:47158] End of script output before headers: xfc.py
+[Tue Aug 29 15:09:48.890585 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47160] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:09:48.890658 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47160] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Aug 29 15:09:48.890687 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47160] AH01215:     getattr(c, recurso)()
+[Tue Aug 29 15:09:48.890733 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47160] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 100, in ver
+[Tue Aug 29 15:09:48.890761 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47160] AH01215:     obj_id = int(environ['REQUEST_URI'].split("/")[-1])
+[Tue Aug 29 15:09:48.890780 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47160] AH01215: NameError: global name 'environ' is not defined
+[Tue Aug 29 15:09:48.894125 2017] [cgi:error] [pid 3783] [client 127.0.0.1:47160] End of script output before headers: xfc.py
+[Tue Aug 29 15:16:48.423162 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:16:48.423241 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Aug 29 15:16:48.423258 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:     getattr(c, recurso)()
+[Tue Aug 29 15:16:48.423293 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 103, in ver
+[Tue Aug 29 15:16:48.423312 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:     self.model.select()
+[Tue Aug 29 15:16:48.423347 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 37, in select
+[Tue Aug 29 15:16:48.423366 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Tue Aug 29 15:16:48.423398 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:   File "/home/debian/server/crm/rootsystem/application/core/db.py", line 16, in execute
+[Tue Aug 29 15:16:48.423414 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:     cursor.execute(self.sql)
+[Tue Aug 29 15:16:48.423447 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Tue Aug 29 15:16:48.453624 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:     self.errorhandler(self, exc, value)
+[Tue Aug 29 15:16:48.453688 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Tue Aug 29 15:16:48.454270 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215:     raise errorclass, errorvalue
+[Tue Aug 29 15:16:48.454327 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] AH01215: _mysql_exceptions.OperationalError: (1054, "Unknown column 'ciudad' in 'field list'")
+[Tue Aug 29 15:16:48.459447 2017] [cgi:error] [pid 3785] [client 127.0.0.1:47202] End of script output before headers: xfc.py
+[Tue Aug 29 15:16:48.837370 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47204] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:16:48.838353 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47204] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Aug 29 15:16:48.838388 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47204] AH01215:     recurso = uri[2]
+[Tue Aug 29 15:16:48.838407 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47204] AH01215: IndexError: list index out of range
+[Tue Aug 29 15:16:48.840017 2017] [cgi:error] [pid 3781] [client 127.0.0.1:47204] End of script output before headers: xfc.py
+[Tue Aug 29 15:21:27.437238 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:21:27.437323 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Aug 29 15:21:27.437354 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:     getattr(c, recurso)()
+[Tue Aug 29 15:21:27.437393 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 103, in ver
+[Tue Aug 29 15:21:27.437409 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:     self.model.select()
+[Tue Aug 29 15:21:27.437445 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 37, in select
+[Tue Aug 29 15:21:27.437465 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Tue Aug 29 15:21:27.437497 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:   File "/home/debian/server/crm/rootsystem/application/core/db.py", line 16, in execute
+[Tue Aug 29 15:21:27.437513 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:     cursor.execute(self.sql)
+[Tue Aug 29 15:21:27.437544 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Tue Aug 29 15:21:27.437563 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:     self.errorhandler(self, exc, value)
+[Tue Aug 29 15:21:27.437600 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Tue Aug 29 15:21:27.437616 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215:     raise errorclass, errorvalue
+[Tue Aug 29 15:21:27.437650 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] AH01215: _mysql_exceptions.OperationalError: (1054, "Unknown column 'ciudad' in 'field list'")
+[Tue Aug 29 15:21:27.441705 2017] [cgi:error] [pid 3782] [client 127.0.0.1:47222] End of script output before headers: xfc.py
+[Tue Aug 29 15:42:15.924398 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] AH01215: Traceback (most recent call last):
+[Tue Aug 29 15:42:15.924490 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Aug 29 15:42:15.924509 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] AH01215:     getattr(c, recurso)()
+[Tue Aug 29 15:42:15.924549 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 103, in ver
+[Tue Aug 29 15:42:15.924569 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] AH01215:     self.model.select()
+[Tue Aug 29 15:42:15.924606 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 37, in select
+[Tue Aug 29 15:42:15.924627 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Tue Aug 29 15:42:15.924644 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] AH01215: IndexError: tuple index out of range
+[Tue Aug 29 15:42:15.928471 2017] [cgi:error] [pid 30508] [client 127.0.0.1:47278] End of script output before headers: xfc.py
+[Thu Aug 31 11:03:04.824416 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49340] AH01215: Traceback (most recent call last):
+[Thu Aug 31 11:03:04.881734 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49340] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Thu Aug 31 11:03:04.881755 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49340] AH01215:     recurso = uri[2]
+[Thu Aug 31 11:03:04.881767 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49340] AH01215: IndexError: list index out of range
+[Thu Aug 31 11:03:04.881785 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49340] End of script output before headers: xfc.py
+[Thu Aug 31 11:50:23.820755 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215: Traceback (most recent call last):
+[Thu Aug 31 11:50:23.820818 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Aug 31 11:50:23.820839 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:     getattr(c, recurso)()
+[Thu Aug 31 11:50:23.820860 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 85, in ver
+[Thu Aug 31 11:50:23.820867 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:     self.model.select()
+[Thu Aug 31 11:50:23.820888 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 33, in select
+[Thu Aug 31 11:50:23.820899 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Aug 31 11:50:23.820918 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:   File "/home/debian/server/crm/rootsystem/application/core/db.py", line 16, in execute
+[Thu Aug 31 11:50:23.820926 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:     cursor.execute(self.sql)
+[Thu Aug 31 11:50:23.820945 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Thu Aug 31 11:50:23.855493 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:     self.errorhandler(self, exc, value)
+[Thu Aug 31 11:50:23.855537 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Thu Aug 31 11:50:23.855714 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215:     raise errorclass, errorvalue
+[Thu Aug 31 11:50:23.855745 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215: _mysql_exceptions.OperationalError
+[Thu Aug 31 11:50:23.855752 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215: : 
+[Thu Aug 31 11:50:23.855771 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] AH01215: (1054, "Unknown column 'producto' in 'field list'")
+[Thu Aug 31 11:50:23.859678 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49532] End of script output before headers: xfc.py
+[Thu Aug 31 11:52:25.345666 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215: Traceback (most recent call last):
+[Thu Aug 31 11:52:25.345748 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Aug 31 11:52:25.345766 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:     getattr(c, recurso)()
+[Thu Aug 31 11:52:25.345803 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 88, in ver
+[Thu Aug 31 11:52:25.345818 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:     self.model.select()
+[Thu Aug 31 11:52:25.345852 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 33, in select
+[Thu Aug 31 11:52:25.345871 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Aug 31 11:52:25.345902 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:   File "/home/debian/server/crm/rootsystem/application/core/db.py", line 16, in execute
+[Thu Aug 31 11:52:25.345918 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:     cursor.execute(self.sql)
+[Thu Aug 31 11:52:25.345949 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Thu Aug 31 11:52:25.345967 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:     self.errorhandler(self, exc, value)
+[Thu Aug 31 11:52:25.346004 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Thu Aug 31 11:52:25.346031 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215:     raise errorclass, errorvalue
+[Thu Aug 31 11:52:25.346065 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] AH01215: _mysql_exceptions.OperationalError: (1054, "Unknown column 'producto' in 'field list'")
+[Thu Aug 31 11:52:25.349674 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49534] End of script output before headers: xfc.py
+[Thu Aug 31 11:53:14.994165 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: Traceback (most recent call last):
+[Thu Aug 31 11:53:14.994258 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Aug 31 11:53:14.994300 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:     
+[Thu Aug 31 11:53:14.994324 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: getattr(c, recurso)()
+[Thu Aug 31 11:53:14.994386 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 88, in ver
+[Thu Aug 31 11:53:14.994429 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:     
+[Thu Aug 31 11:53:14.994450 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: self.model.select()
+[Thu Aug 31 11:53:14.994507 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 33, in select
+[Thu Aug 31 11:53:14.994539 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:     
+[Thu Aug 31 11:53:14.994575 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: resultado = DBQuery().execute(sql)[0]
+[Thu Aug 31 11:53:14.994632 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:   File "/home/debian/server/crm/rootsystem/application/core/db.py", line 16, in execute
+[Thu Aug 31 11:53:14.994665 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:     
+[Thu Aug 31 11:53:14.994689 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: cursor.execute(self.sql)
+[Thu Aug 31 11:53:14.994741 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute
+[Thu Aug 31 11:53:14.994796 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:     
+[Thu Aug 31 11:53:14.994823 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: self.errorhandler(self, exc, value)
+[Thu Aug 31 11:53:14.994881 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+[Thu Aug 31 11:53:14.994914 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215:     
+[Thu Aug 31 11:53:14.994938 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: raise errorclass, errorvalue
+[Thu Aug 31 11:53:14.994971 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: _mysql_exceptions
+[Thu Aug 31 11:53:14.994985 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: .
+[Thu Aug 31 11:53:14.995004 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: OperationalError
+[Thu Aug 31 11:53:14.995028 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: : 
+[Thu Aug 31 11:53:14.995064 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: (1054, "Unknown column 'producto' in 'field list'")
+[Thu Aug 31 11:53:14.995080 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] AH01215: 
+[Thu Aug 31 11:53:15.000275 2017] [cgi:error] [pid 4211] [client 127.0.0.1:49548] End of script output before headers: xfc.py
+[Thu Aug 31 11:54:47.587359 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] AH01215: Traceback (most recent call last):
+[Thu Aug 31 11:54:47.587424 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Aug 31 11:54:47.587434 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] AH01215:     getattr(c, recurso)()
+[Thu Aug 31 11:54:47.587467 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 88, in ver
+[Thu Aug 31 11:54:47.587476 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] AH01215:     self.model.select()
+[Thu Aug 31 11:54:47.587499 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 33, in select
+[Thu Aug 31 11:54:47.587511 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Aug 31 11:54:47.587522 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] AH01215: IndexError: tuple index out of range
+[Thu Aug 31 11:54:47.591371 2017] [cgi:error] [pid 4212] [client 127.0.0.1:49566] End of script output before headers: xfc.py
+[Thu Aug 31 11:54:52.348805 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] AH01215: Traceback (most recent call last):
+[Thu Aug 31 11:54:52.348879 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Aug 31 11:54:52.348895 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] AH01215:     getattr(c, recurso)()
+[Thu Aug 31 11:54:52.348929 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 88, in ver
+[Thu Aug 31 11:54:52.348942 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] AH01215:     self.model.select()
+[Thu Aug 31 11:54:52.348977 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 33, in select
+[Thu Aug 31 11:54:52.348995 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Aug 31 11:54:52.349012 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] AH01215: IndexError: tuple index out of range
+[Thu Aug 31 11:54:52.352512 2017] [cgi:error] [pid 4213] [client 127.0.0.1:49568] End of script output before headers: xfc.py
+[Thu Aug 31 11:57:21.388789 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215: Traceback (most recent call last):
+[Thu Aug 31 11:57:21.388865 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Aug 31 11:57:21.388884 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215:     getattr(c, recurso)()
+[Thu Aug 31 11:57:21.388917 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 88, in ver
+[Thu Aug 31 11:57:21.388932 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215:     self.model.select()
+[Thu Aug 31 11:57:21.388969 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 33, in select
+[Thu Aug 31 11:57:21.388992 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Aug 31 11:57:21.389012 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215: IndexError: tuple index out of range
+[Thu Aug 31 11:57:21.392487 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] End of script output before headers: xfc.py
