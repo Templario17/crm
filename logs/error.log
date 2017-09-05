@@ -551,3 +551,20 @@
 [Thu Aug 31 11:57:21.388992 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215:     resultado = DBQuery().execute(sql)[0]
 [Thu Aug 31 11:57:21.389012 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] AH01215: IndexError: tuple index out of range
 [Thu Aug 31 11:57:21.392487 2017] [cgi:error] [pid 4214] [client 127.0.0.1:49580] End of script output before headers: xfc.py
+[Tue Sep 05 14:33:43.692937 2017] [cgi:error] [pid 1210] [client 127.0.0.1:55600] malformed header from script 'xfc.py': Bad header: <!DOCTYPE html>
+[Tue Sep 05 14:33:44.217591 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55602] AH01215: Traceback (most recent call last):
+[Tue Sep 05 14:33:44.217727 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55602] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Sep 05 14:33:44.217745 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55602] AH01215:     recurso = uri[2]
+[Tue Sep 05 14:33:44.217764 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55602] AH01215: IndexError: list index out of range
+[Tue Sep 05 14:33:44.220442 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55602] End of script output before headers: xfc.py
+[Tue Sep 05 14:35:19.089420 2017] [cgi:error] [pid 1212] [client 127.0.0.1:55606] malformed header from script 'xfc.py': Bad header: <!DOCTYPE html>
+[Tue Sep 05 14:35:45.896098 2017] [cgi:error] [pid 1213] [client 127.0.0.1:55608] malformed header from script 'xfc.py': Bad header: <!DOCTYPE html>
+[Tue Sep 05 14:56:30.663773 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215: Traceback (most recent call last):, referer: http://crm.local/producto/editar/4
+[Tue Sep 05 14:56:30.663858 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/producto/editar/4
+[Tue Sep 05 14:56:30.663877 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215:     getattr(c, recurso)(), referer: http://crm.local/producto/editar/4
+[Tue Sep 05 14:56:30.663911 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 122, in actualizar, referer: http://crm.local/producto/editar/4
+[Tue Sep 05 14:56:30.663925 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215:     self.model.update(), referer: http://crm.local/producto/editar/4
+[Tue Sep 05 14:56:30.663958 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 31, in update, referer: http://crm.local/producto/editar/4
+[Tue Sep 05 14:56:30.663972 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215:     DBQuery().execute(sql), referer: http://crm.local/producto/editar/4
+[Tue Sep 05 14:56:30.663990 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215: NameError: global name 'sql' is not defined, referer: http://crm.local/producto/editar/4
+[Tue Sep 05 14:56:30.668802 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] End of script output before headers: xfc.py, referer: http://crm.local/producto/editar/4

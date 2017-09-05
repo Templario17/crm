@@ -22,7 +22,13 @@ class Producto(object):
         self.producto_id = DBQuery().execute(sql)
 
     def update(self):
-        pass
+        sql = """
+            UPDATE producto
+            SET denominacion = '{}',
+                precio = {}
+            WHERE producto_id = {}
+        """.format(self.denominacion, self.precio, self.producto_id)
+        DBQuery().execute(sql)
 
     def select(self):
         sql = """
@@ -55,7 +61,16 @@ class ProductoView(object):
 
     def ver(self, objeto):
         diccionario = vars(objeto)
-        with open("/home/debian/server/crm/rootsystem/static/ver_producto.html")as f: 
+        with open("/home/debian/server/crm/rootsystem/static/ver_producto.html")as f:
+            html = f.read()
+        render = Template(html).safe_substitute(diccionario)
+        print "content-type: text/html; charset=utf-8"
+        print ""
+        print render
+
+    def editar(self, objeto):
+        diccionario = vars(objeto)
+        with open("/home/debian/server/crm/rootsystem/static/editar_producto.html", "r") as f:
             html = f.read()
         render = Template(html).safe_substitute(diccionario)
         print "content-type: text/html; charset=utf-8"
@@ -81,12 +96,31 @@ class ProductoController(object):
 
         self.model.insert()
         self.view.guardar()
-    
+
     def ver(self):
         obj_id = int(environ['REQUEST_URI'].split('/')[-1])
         self.model.producto_id = obj_id
         self.model.select()
         self.view.ver(self.model)
+
+    def editar(self):
+        pid = int(environ['REQUEST_URI'].split('/')[-1])
+        self.model.producto_id = pid
+        self.model.select()
+        self.view.editar(self.model)
+
+    def actualizar(self):
+        form = FieldStorage()
+        producto_id = form["producto_id"].value
+        denominacion = form["denominacion"].value
+        precio = form["precio"].value
+
+        self.model.producto_id = producto_id
+        self.model.denominacion = denominacion
+        self.model.precio = precio
+
+        self.model.update()
+        self.view.editar(self.model)
 
 
 class ProductoHelper(object):
