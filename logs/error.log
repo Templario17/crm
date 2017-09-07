@@ -568,3 +568,15 @@
 [Tue Sep 05 14:56:30.663972 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215:     DBQuery().execute(sql), referer: http://crm.local/producto/editar/4
 [Tue Sep 05 14:56:30.663990 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] AH01215: NameError: global name 'sql' is not defined, referer: http://crm.local/producto/editar/4
 [Tue Sep 05 14:56:30.668802 2017] [cgi:error] [pid 1211] [client 127.0.0.1:55652] End of script output before headers: xfc.py, referer: http://crm.local/producto/editar/4
+[Thu Sep 07 10:47:32.871640 2017] [cgi:error] [pid 1223] [client 127.0.0.1:37986] AH01215: Traceback (most recent call last):
+[Thu Sep 07 10:47:32.930179 2017] [cgi:error] [pid 1223] [client 127.0.0.1:37986] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Thu Sep 07 10:47:32.930203 2017] [cgi:error] [pid 1223] [client 127.0.0.1:37986] AH01215:     recurso = uri[2]
+[Thu Sep 07 10:47:32.930228 2017] [cgi:error] [pid 1223] [client 127.0.0.1:37986] AH01215: IndexError: list index out of range
+[Thu Sep 07 10:47:32.930249 2017] [cgi:error] [pid 1223] [client 127.0.0.1:37986] End of script output before headers: xfc.py
+[Thu Sep 07 10:47:50.890729 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/editar/1
+[Thu Sep 07 10:47:50.890872 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/editar/1
+[Thu Sep 07 10:47:50.890889 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/editar/1
+[Thu Sep 07 10:47:50.890929 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 150, in actualizar, referer: http://crm.local/domicilio/editar/1
+[Thu Sep 07 10:47:50.890947 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] AH01215:     seef.view.editar(self.model), referer: http://crm.local/domicilio/editar/1
+[Thu Sep 07 10:47:50.890969 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] AH01215: NameError: global name 'seef' is not defined, referer: http://crm.local/domicilio/editar/1
+[Thu Sep 07 10:47:50.898859 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/editar/1

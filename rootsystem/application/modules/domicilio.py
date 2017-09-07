@@ -26,7 +26,17 @@ class Domicilio(object):
         self.domicilio_id = DBQuery().execute(sql)
 
     def update(self):
-        pass
+        sql = """
+            UPDATE domicilio
+            SET numero = "{}",
+                puerta = "{}",
+                calle = "{}",
+                piso = {},
+                ciudad = "{}",
+                cp = "{}"
+            WHERE domicilio_id ={}
+        """.format(self.numero, self.puerta, self.calle, self.piso, self.ciudad, self.cp, self.domicilio_id)
+        DBQuery().execute(sql)
 
     def select(self):
         sql = """
@@ -68,6 +78,15 @@ class DomicilioView(object):
         print ""
         print render
 
+    def editar(self, objeto):
+        diccionario = vars(objeto)
+        with open("/home/debian/server/crm/rootsystem/static/editar_domicilio.html") as f:
+            html = f.read()
+        render = Template(html).safe_substitute(diccionario)
+        print "content-type: text/html; charset=utf-8"
+        print ""
+        print render
+
 
 class DomicilioController(object):
 
@@ -103,6 +122,32 @@ class DomicilioController(object):
         self.model.select()
         self.view.ver(self.model)
 
+    def editar(self):
+        obj_id = int(environ['REQUEST_URI'].split('/')[-1])
+        self.model.domicilio_id = obj_id
+        self.model.select()
+        self.view.editar(self.model)
+
+    def actualizar(self):
+        form = FieldStorage()
+        domicilio_id = form["domicilio_id"].value
+        numero = form["numero"].value
+        puerta = form["puerta"].value
+        calle = form["calle"].value
+        piso = form["piso"].value
+        ciudad = form["ciudad"].value
+        cp = form["ciudad"].value
+
+        self.model.domicilio_id = domicilio_id
+        self.model.numero = numero
+        self.model.puerta = puerta
+        self.model.calle = calle
+        self.model.piso = piso
+        self.model.ciudad = ciudad
+        self.model.cp = cp
+
+        self.model.update()
+        self.view.ver(self.model)
 
 class DomicilioHelper(object):
     pass
