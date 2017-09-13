@@ -42,7 +42,10 @@ class Producto(object):
 
 
     def delete(self):
-        pass
+        sql = """ DELETE FROM producto
+                  WHERE {}
+        """.format(self.producto_id)
+        DBQuery().execute(sql)
 
 
 class ProductoView(object):
@@ -121,6 +124,12 @@ class ProductoController(object):
 
         self.model.update()
         self.view.editar(self.model)
+
+    def eliminar(self):
+        obj_id = int(environ['REQUEST_URI'].split('/')[-1])
+        self.model.producto_id = obj_id
+        self.model.delete()
+        self.view.agregar()
 
 
 class ProductoHelper(object):
