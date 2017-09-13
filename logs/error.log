@@ -580,3 +580,62 @@
 [Thu Sep 07 10:47:50.890947 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] AH01215:     seef.view.editar(self.model), referer: http://crm.local/domicilio/editar/1
 [Thu Sep 07 10:47:50.890969 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] AH01215: NameError: global name 'seef' is not defined, referer: http://crm.local/domicilio/editar/1
 [Thu Sep 07 10:47:50.898859 2017] [cgi:error] [pid 1224] [client 127.0.0.1:37998] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/editar/1
+[Wed Sep 13 16:15:11.382060 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54884] AH01215: Traceback (most recent call last):
+[Wed Sep 13 16:15:11.431531 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54884] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Sep 13 16:15:11.431567 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54884] AH01215:     recurso = uri[2]
+[Wed Sep 13 16:15:11.431584 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54884] AH01215: IndexError: list index out of range
+[Wed Sep 13 16:15:11.431620 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54884] End of script output before headers: xfc.py
+[Wed Sep 13 16:15:51.592156 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] AH01215: Traceback (most recent call last):
+[Wed Sep 13 16:15:51.592251 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Sep 13 16:15:51.592269 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] AH01215:     getattr(c, recurso)()
+[Wed Sep 13 16:15:51.592305 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Wed Sep 13 16:15:51.592320 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] AH01215:     self.model.select()
+[Wed Sep 13 16:15:51.592355 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Wed Sep 13 16:15:51.592375 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Wed Sep 13 16:15:51.592392 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] AH01215: IndexError: tuple index out of range
+[Wed Sep 13 16:15:51.596165 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54902] End of script output before headers: xfc.py
+[Wed Sep 13 16:15:58.684225 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] AH01215: Traceback (most recent call last):
+[Wed Sep 13 16:15:58.684314 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Sep 13 16:15:58.684333 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] AH01215:     getattr(c, recurso)()
+[Wed Sep 13 16:15:58.684367 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Wed Sep 13 16:15:58.684382 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] AH01215:     self.model.select()
+[Wed Sep 13 16:15:58.684418 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Wed Sep 13 16:15:58.684438 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Wed Sep 13 16:15:58.684456 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] AH01215: IndexError: tuple index out of range
+[Wed Sep 13 16:15:58.688546 2017] [cgi:error] [pid 2338] [client 127.0.0.1:54904] End of script output before headers: xfc.py
+[Wed Sep 13 16:16:21.943953 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] AH01215: Traceback (most recent call last):
+[Wed Sep 13 16:16:21.944033 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Sep 13 16:16:21.944049 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] AH01215:     getattr(c, recurso)()
+[Wed Sep 13 16:16:21.944082 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Wed Sep 13 16:16:21.944094 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] AH01215:     self.model.select()
+[Wed Sep 13 16:16:21.944146 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Wed Sep 13 16:16:21.944164 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Wed Sep 13 16:16:21.944180 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] AH01215: IndexError: tuple index out of range
+[Wed Sep 13 16:16:21.948632 2017] [cgi:error] [pid 18753] [client 127.0.0.1:54906] End of script output before headers: xfc.py
+[Wed Sep 13 16:16:28.296759 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] AH01215: Traceback (most recent call last):
+[Wed Sep 13 16:16:28.296839 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Sep 13 16:16:28.296857 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] AH01215:     getattr(c, recurso)()
+[Wed Sep 13 16:16:28.296893 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Wed Sep 13 16:16:28.296907 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] AH01215:     self.model.select()
+[Wed Sep 13 16:16:28.296943 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Wed Sep 13 16:16:28.296963 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Wed Sep 13 16:16:28.296981 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] AH01215: IndexError: tuple index out of range
+[Wed Sep 13 16:16:28.300893 2017] [cgi:error] [pid 2334] [client 127.0.0.1:54908] End of script output before headers: xfc.py
+[Wed Sep 13 16:16:44.312112 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] AH01215: Traceback (most recent call last):
+[Wed Sep 13 16:16:44.312195 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Sep 13 16:16:44.312213 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] AH01215:     getattr(c, recurso)()
+[Wed Sep 13 16:16:44.312248 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Wed Sep 13 16:16:44.312263 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] AH01215:     self.model.select()
+[Wed Sep 13 16:16:44.312299 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Wed Sep 13 16:16:44.312320 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Wed Sep 13 16:16:44.312338 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] AH01215: IndexError: tuple index out of range
+[Wed Sep 13 16:16:44.316251 2017] [cgi:error] [pid 2335] [client 127.0.0.1:54910] End of script output before headers: xfc.py
+[Wed Sep 13 16:17:33.646146 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215: Traceback (most recent call last):
+[Wed Sep 13 16:17:33.646227 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Sep 13 16:17:33.646245 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215:     getattr(c, recurso)()
+[Wed Sep 13 16:17:33.646280 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Wed Sep 13 16:17:33.646295 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215:     self.model.select()
+[Wed Sep 13 16:17:33.646331 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Wed Sep 13 16:17:33.646351 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Wed Sep 13 16:17:33.646381 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215: IndexError: tuple index out of range
+[Wed Sep 13 16:17:33.650541 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] End of script output before headers: xfc.py
