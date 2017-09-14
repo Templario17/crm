@@ -53,7 +53,11 @@ class Domicilio(object):
         self.cp = resultado[5]
 
     def delete(self):
-        pass
+        sql = """
+              DELETE FROM domicilio
+              WHERE {}
+        """.format(self.domicilio_id)
+        DBQuery().execute(sql)
 
 class DomicilioView(object):
 
@@ -148,6 +152,12 @@ class DomicilioController(object):
 
         self.model.update()
         self.view.ver(self.model)
+
+    def eliminar(self):
+        obj_id = int(environ['REQUEST_URI'].split('/')[-1])
+        self.model.domicilio_id = obj_id
+        self.model.delete()
+        self.view.agregar()
 
 class DomicilioHelper(object):
     pass

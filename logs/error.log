@@ -639,3 +639,26 @@
 [Wed Sep 13 16:17:33.646351 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215:     resultado = DBQuery().execute(sql)[0]
 [Wed Sep 13 16:17:33.646381 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] AH01215: IndexError: tuple index out of range
 [Wed Sep 13 16:17:33.650541 2017] [cgi:error] [pid 2337] [client 127.0.0.1:54914] End of script output before headers: xfc.py
+[Thu Sep 14 10:36:11.354849 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34016] AH01215: Traceback (most recent call last):
+[Thu Sep 14 10:36:11.422936 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34016] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Thu Sep 14 10:36:11.422958 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34016] AH01215:     recurso = uri[2]
+[Thu Sep 14 10:36:11.422970 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34016] AH01215: IndexError: list index out of range
+[Thu Sep 14 10:36:11.422988 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34016] End of script output before headers: xfc.py
+[Thu Sep 14 10:37:33.540463 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] AH01215: Traceback (most recent call last):
+[Thu Sep 14 10:37:33.540573 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 10:37:33.540584 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 10:37:33.540610 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 126, in ver
+[Thu Sep 14 10:37:33.540624 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] AH01215:     self.model.select()
+[Thu Sep 14 10:37:33.540655 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 47, in select
+[Thu Sep 14 10:37:33.540673 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 10:37:33.540690 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 10:37:33.544546 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34036] End of script output before headers: xfc.py
+[Thu Sep 14 10:37:36.576358 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215: Traceback (most recent call last):
+[Thu Sep 14 10:37:36.576475 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 10:37:36.576490 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 10:37:36.576516 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 126, in ver
+[Thu Sep 14 10:37:36.576526 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215:     self.model.select()
+[Thu Sep 14 10:37:36.576547 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 47, in select
+[Thu Sep 14 10:37:36.576559 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 10:37:36.576569 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 10:37:36.580313 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] End of script output before headers: xfc.py
