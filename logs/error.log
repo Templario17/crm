@@ -662,3 +662,111 @@
 [Thu Sep 14 10:37:36.576559 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215:     resultado = DBQuery().execute(sql)[0]
 [Thu Sep 14 10:37:36.576569 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] AH01215: IndexError: tuple index out of range
 [Thu Sep 14 10:37:36.580313 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34038] End of script output before headers: xfc.py
+[Thu Sep 14 10:55:45.302812 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] AH01215: Traceback (most recent call last):
+[Thu Sep 14 10:55:45.302893 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 10:55:45.302910 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 10:55:45.302938 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 133, in ver
+[Thu Sep 14 10:55:45.302964 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] AH01215:     self.model.select()
+[Thu Sep 14 10:55:45.302986 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 47, in select
+[Thu Sep 14 10:55:45.302998 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 10:55:45.303008 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 10:55:45.307567 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34126] End of script output before headers: xfc.py
+[Thu Sep 14 10:55:58.038769 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] AH01215: Traceback (most recent call last):
+[Thu Sep 14 10:55:58.038880 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 10:55:58.038925 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 10:55:58.038983 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 167, in eliminar
+[Thu Sep 14 10:55:58.039003 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] AH01215:     self.view.eliminar()
+[Thu Sep 14 10:55:58.039039 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 95, in eliminar
+[Thu Sep 14 10:55:58.039073 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] AH01215:     with open("home/debian/server/crm/rootsystem/static/editar_domicilio.html") as f:
+[Thu Sep 14 10:55:58.039116 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] AH01215: IOError: [Errno 2] No such file or directory: 'home/debian/server/crm/rootsystem/static/editar_domicilio.html'
+[Thu Sep 14 10:55:58.043814 2017] [cgi:error] [pid 1220] [client 127.0.0.1:34130] End of script output before headers: xfc.py
+[Thu Sep 14 10:56:06.591222 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] AH01215: Traceback (most recent call last):
+[Thu Sep 14 10:56:06.591299 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 10:56:06.591315 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 10:56:06.591352 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 167, in eliminar
+[Thu Sep 14 10:56:06.591367 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] AH01215:     self.view.eliminar()
+[Thu Sep 14 10:56:06.591403 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 95, in eliminar
+[Thu Sep 14 10:56:06.591438 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] AH01215:     with open("home/debian/server/crm/rootsystem/static/editar_domicilio.html") as f:
+[Thu Sep 14 10:56:06.591481 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] AH01215: IOError: [Errno 2] No such file or directory: 'home/debian/server/crm/rootsystem/static/editar_domicilio.html'
+[Thu Sep 14 10:56:06.595184 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34132] End of script output before headers: xfc.py
+[Thu Sep 14 10:58:22.849145 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] AH01215: Traceback (most recent call last):
+[Thu Sep 14 10:58:22.849239 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 10:58:22.849258 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 10:58:22.849296 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 167, in eliminar
+[Thu Sep 14 10:58:22.849326 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] AH01215:     self.view.eliminar()
+[Thu Sep 14 10:58:22.849361 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 95, in eliminar
+[Thu Sep 14 10:58:22.849396 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] AH01215:     with open("home/debian/server/crm/rootsystem/static/eliminar_domicilio.html") as f:
+[Thu Sep 14 10:58:22.849436 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] AH01215: IOError: [Errno 2] No such file or directory: 'home/debian/server/crm/rootsystem/static/eliminar_domicilio.html'
+[Thu Sep 14 10:58:22.854608 2017] [cgi:error] [pid 6995] [client 127.0.0.1:34134] End of script output before headers: xfc.py
+[Thu Sep 14 11:01:22.288638 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] AH01215: Traceback (most recent call last):
+[Thu Sep 14 11:01:22.288717 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 11:01:22.288734 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 11:01:22.288767 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 133, in ver
+[Thu Sep 14 11:01:22.288780 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] AH01215:     self.model.select()
+[Thu Sep 14 11:01:22.288812 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 47, in select
+[Thu Sep 14 11:01:22.288830 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 11:01:22.288846 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 11:01:22.292728 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34140] End of script output before headers: xfc.py
+[Thu Sep 14 11:01:25.193605 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] AH01215: Traceback (most recent call last):
+[Thu Sep 14 11:01:25.193688 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 11:01:25.193706 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 11:01:25.193746 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 133, in ver
+[Thu Sep 14 11:01:25.193761 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] AH01215:     self.model.select()
+[Thu Sep 14 11:01:25.193801 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 47, in select
+[Thu Sep 14 11:01:25.193823 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 11:01:25.193844 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 11:01:25.197637 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34142] End of script output before headers: xfc.py
+[Thu Sep 14 11:05:30.836590 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] AH01215: Traceback (most recent call last):
+[Thu Sep 14 11:05:30.836677 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 11:05:30.836695 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 11:05:30.836732 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 167, in eliminar
+[Thu Sep 14 11:05:30.836762 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] AH01215:     self.view.eliminar()
+[Thu Sep 14 11:05:30.836795 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 95, in eliminar
+[Thu Sep 14 11:05:30.836827 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] AH01215:     with open("home/debian/server/crm/rootsystem/static/eliminar_domicilio.html") as f:
+[Thu Sep 14 11:05:30.836865 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] AH01215: IOError: [Errno 2] No such file or directory: 'home/debian/server/crm/rootsystem/static/eliminar_domicilio.html'
+[Thu Sep 14 11:05:30.842217 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34166] End of script output before headers: xfc.py
+[Thu Sep 14 11:12:38.108106 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] AH01215: Traceback (most recent call last):
+[Thu Sep 14 11:12:38.108190 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 11:12:38.108208 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 11:12:38.108246 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Thu Sep 14 11:12:38.108261 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] AH01215:     self.model.select()
+[Thu Sep 14 11:12:38.108297 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Thu Sep 14 11:12:38.108319 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 11:12:38.108337 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 11:12:38.112145 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34184] End of script output before headers: xfc.py
+[Thu Sep 14 11:12:41.166160 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] AH01215: Traceback (most recent call last):
+[Thu Sep 14 11:12:41.166234 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 11:12:41.166251 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 11:12:41.166296 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Thu Sep 14 11:12:41.166315 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] AH01215:     self.model.select()
+[Thu Sep 14 11:12:41.166347 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Thu Sep 14 11:12:41.166366 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 11:12:41.166382 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 11:12:41.170272 2017] [cgi:error] [pid 1218] [client 127.0.0.1:34186] End of script output before headers: xfc.py
+[Thu Sep 14 11:12:45.905297 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] AH01215: Traceback (most recent call last):
+[Thu Sep 14 11:12:45.905370 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 11:12:45.905389 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 11:12:45.905425 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 106, in ver
+[Thu Sep 14 11:12:45.905456 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] AH01215:     self.model.select()
+[Thu Sep 14 11:12:45.905491 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Thu Sep 14 11:12:45.905512 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 11:12:45.905534 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 11:12:45.909945 2017] [cgi:error] [pid 1219] [client 127.0.0.1:34188] End of script output before headers: xfc.py
+[Thu Sep 14 11:18:03.030369 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] AH01215: Traceback (most recent call last):
+[Thu Sep 14 11:18:03.030453 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 11:18:03.030470 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 11:18:03.030511 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 139, in eliminar
+[Thu Sep 14 11:18:03.030526 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] AH01215:     self.view.eliminar()
+[Thu Sep 14 11:18:03.030566 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 84, in eliminar
+[Thu Sep 14 11:18:03.030601 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] AH01215:     with open("/home/debian/server/rootsystem/static/eliminar_producto.html") as f:
+[Thu Sep 14 11:18:03.030646 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] AH01215: IOError: [Errno 2] No such file or directory: '/home/debian/server/rootsystem/static/eliminar_producto.html'
+[Thu Sep 14 11:18:03.035057 2017] [cgi:error] [pid 1221] [client 127.0.0.1:34202] End of script output before headers: xfc.py
+[Thu Sep 14 11:21:17.848171 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] AH01215: Traceback (most recent call last):
+[Thu Sep 14 11:21:17.848255 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Thu Sep 14 11:21:17.848273 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] AH01215:     getattr(c, recurso)()
+[Thu Sep 14 11:21:17.848309 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 113, in ver
+[Thu Sep 14 11:21:17.848323 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] AH01215:     self.model.select()
+[Thu Sep 14 11:21:17.848359 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 39, in select
+[Thu Sep 14 11:21:17.848379 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Thu Sep 14 11:21:17.848397 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] AH01215: IndexError: tuple index out of range
+[Thu Sep 14 11:21:17.852651 2017] [cgi:error] [pid 1217] [client 127.0.0.1:34226] End of script output before headers: xfc.py

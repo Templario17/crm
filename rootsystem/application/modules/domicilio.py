@@ -91,6 +91,13 @@ class DomicilioView(object):
         print ""
         print render
 
+    def eliminar(self):
+        with open("/home/debian/server/crm/rootsystem/static/eliminar_domicilio.html") as f:
+            html = f.read()
+        print "content-type: text/html; charset=utf-8"
+        print ""
+        print html
+
 
 class DomicilioController(object):
 
@@ -157,7 +164,7 @@ class DomicilioController(object):
         obj_id = int(environ['REQUEST_URI'].split('/')[-1])
         self.model.domicilio_id = obj_id
         self.model.delete()
-        self.view.agregar()
+        self.view.eliminar()
 
 class DomicilioHelper(object):
     pass

@@ -80,6 +80,13 @@ class ProductoView(object):
         print ""
         print render
 
+    def eliminar(self):
+        with open("/home/debian/server/crm/rootsystem/static/eliminar_producto.html", "r") as f:
+            html = f.read()
+        print "Content-type: text/html; charset=utf-8"
+        print ""
+        print html
+
 class ProductoController(object):
 
     def __init__(self):
@@ -129,7 +136,7 @@ class ProductoController(object):
         obj_id = int(environ['REQUEST_URI'].split('/')[-1])
         self.model.producto_id = obj_id
         self.model.delete()
-        self.view.agregar()
+        self.view.eliminar()
 
 
 class ProductoHelper(object):
