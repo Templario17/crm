@@ -3,6 +3,7 @@ from string import Template
 from os import environ
 
 from core.db import DBQuery
+from core.collector import Collector
 
 
 class Producto(object):
@@ -43,7 +44,7 @@ class Producto(object):
 
     def delete(self):
         sql = """ DELETE FROM producto
-                  WHERE {}
+                  WHERE producto_id = {}
         """.format(self.producto_id)
         DBQuery().execute(sql)
 
@@ -138,6 +139,14 @@ class ProductoController(object):
         self.model.delete()
         self.view.eliminar()
 
+    def listar(self):
+        obj = Collector()
+        obj.get("Producto")
+        print "Content-type: text/html; charset=utf-8"
+        print ""
+        for objeto in obj.coleccion:
+            print vars(objeto)
+            print "<br>"
 
 class ProductoHelper(object):
     pass

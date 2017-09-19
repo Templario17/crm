@@ -55,7 +55,7 @@ class Domicilio(object):
     def delete(self):
         sql = """
               DELETE FROM domicilio
-              WHERE {}
+              WHERE domicilio_id = {}
         """.format(self.domicilio_id)
         DBQuery().execute(sql)
 
