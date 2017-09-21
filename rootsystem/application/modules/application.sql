@@ -12,4 +12,11 @@ CREATE TABLE IF NOT EXISTS domicilio(
   piso INT(11),
   ciudad VARCHAR(25),
   cp VARCHAR(20)
-)ENGINE=InnoDB
+)ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS datodecontacto(
+  datodecontacto_id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(100),
+  mail VARCHAR(100),
+  telefono VARCHAR(25)
+)ENGINE=InnoDB;

@@ -775,3 +775,117 @@
 [Tue Sep 19 14:48:53.951288 2017] [cgi:error] [pid 873] [client 127.0.0.1:59480] AH01215:     recurso = uri[2]
 [Tue Sep 19 14:48:53.951300 2017] [cgi:error] [pid 873] [client 127.0.0.1:59480] AH01215: IndexError: list index out of range
 [Tue Sep 19 14:48:53.951324 2017] [cgi:error] [pid 873] [client 127.0.0.1:59480] End of script output before headers: xfc.py
+[Thu Sep 21 11:22:25.997200 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38102] AH01215: Traceback (most recent call last):
+[Thu Sep 21 11:22:26.043637 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38102] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 16, in <module>
+[Thu Sep 21 11:22:26.043669 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38102] AH01215:     c = getattr(m, controlador)()
+[Thu Sep 21 11:22:26.043697 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38102] AH01215: AttributeError: 'module' object has no attribute 'DatodecontactoController'
+[Thu Sep 21 11:22:26.043734 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38102] End of script output before headers: xfc.py
+[Thu Sep 21 11:22:26.425663 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38104] AH01215: Traceback (most recent call last):
+[Thu Sep 21 11:22:26.425744 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38104] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Thu Sep 21 11:22:26.425759 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38104] AH01215:     recurso = uri[2]
+[Thu Sep 21 11:22:26.425778 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38104] AH01215: IndexError: list index out of range
+[Thu Sep 21 11:22:26.427474 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38104] End of script output before headers: xfc.py
+[Thu Sep 21 11:23:39.772354 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38106] AH01215: Traceback (most recent call last):
+[Thu Sep 21 11:23:39.772442 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38106] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 15, in <module>
+[Thu Sep 21 11:23:39.772468 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38106] AH01215:     m = __import__("modules.{}".format(modulo), fromlist=[controlador])
+[Thu Sep 21 11:23:39.772501 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38106] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 20
+[Thu Sep 21 11:23:39.772524 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38106] AH01215:     self.datodecontacto_id = DBQuery().execute(sql)
+[Thu Sep 21 11:23:39.772531 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38106] AH01215:     ^
+[Thu Sep 21 11:23:39.772547 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38106] AH01215: IndentationError: unexpected indent
+[Thu Sep 21 11:23:39.774460 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38106] End of script output before headers: xfc.py
+[Thu Sep 21 11:25:59.013613 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38108] AH01215: Traceback (most recent call last):
+[Thu Sep 21 11:25:59.013706 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38108] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 16, in <module>
+[Thu Sep 21 11:25:59.013731 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38108] AH01215:     c = getattr(m, controlador)()
+[Thu Sep 21 11:25:59.013765 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38108] AH01215: AttributeError: 'module' object has no attribute 'DatodecontactoController'
+[Thu Sep 21 11:25:59.016649 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38108] End of script output before headers: xfc.py
+[Thu Sep 21 11:42:59.363546 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.363621 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.363639 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.363673 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 102, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.363693 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215:     denominacion = form['denominacion'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.363728 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.389008 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215:     raise KeyError, key, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.389044 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215: KeyError: , referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.389057 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] AH01215: 'denominacion', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:42:59.416576 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38134] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.501252 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.501344 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.501364 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.501400 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 102, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.501422 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] AH01215:     denominacion = form['denominacion'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.501448 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.501464 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] AH01215:     raise KeyError, key, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.501479 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] AH01215: KeyError: 'denominacion', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:44:13.504696 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38136] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.109687 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.109769 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.109784 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.109817 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 102, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.109837 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] AH01215:     denominacion = form['denominacion'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.109864 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.109877 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] AH01215:     raise KeyError, key, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.109890 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] AH01215: KeyError: 'denominacion', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:45:04.112778 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38138] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:46:56.003963 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38142] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:46:56.004072 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38142] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:46:56.004091 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38142] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:46:56.004130 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38142] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 67, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:46:56.004146 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38142] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:46:56.004170 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38142] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:46:56.007340 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38142] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:49:04.213601 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38144] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:49:04.213695 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38144] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:49:04.213713 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38144] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:49:04.213752 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38144] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 67, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:49:04.213769 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38144] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:49:04.213792 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38144] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:49:04.216508 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38144] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:51:16.700628 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38146] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:51:16.700712 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38146] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:51:16.700729 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38146] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:51:16.700765 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38146] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 67, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:51:16.700780 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38146] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:51:16.700804 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38146] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:51:16.703734 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38146] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:55:03.222822 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38148] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:55:03.222904 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38148] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:55:03.222922 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38148] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:55:03.222958 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38148] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 67, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:55:03.222974 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38148] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:55:03.222995 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38148] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 11:55:03.226003 2017] [cgi:error] [pid 3020] [client 127.0.0.1:38148] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:44.335881 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38150] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:44.335971 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38150] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:44.335990 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38150] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:44.336029 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38150] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 68, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:44.336046 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38150] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:44.336073 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38150] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:44.338997 2017] [cgi:error] [pid 3021] [client 127.0.0.1:38150] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:59.492261 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38152] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:59.492368 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38152] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:59.492388 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38152] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:59.492427 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38152] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 68, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:59.492445 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38152] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:59.492473 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38152] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:02:59.495894 2017] [cgi:error] [pid 3017] [client 127.0.0.1:38152] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:14.817413 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38254] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:14.817500 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38254] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:14.817520 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38254] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:14.817561 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38254] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 68, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:14.817580 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38254] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:14.817604 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38254] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:14.821711 2017] [cgi:error] [pid 5202] [client 127.0.0.1:38254] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:47.556175 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38256] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:47.556258 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38256] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:47.556275 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38256] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:47.556312 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38256] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 68, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:47.556328 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38256] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:47.556350 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38256] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:09:47.559203 2017] [cgi:error] [pid 3018] [client 127.0.0.1:38256] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:11:59.531590 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38258] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:11:59.531681 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38258] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:11:59.531701 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38258] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:11:59.531741 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38258] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 68, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:11:59.531758 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38258] AH01215:     mail = form['mail'].value, referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:11:59.531783 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38258] AH01215: AttributeError: 'list' object has no attribute 'value', referer: http://crm.local/datodecontacto/agregar
+[Thu Sep 21 12:11:59.536337 2017] [cgi:error] [pid 3019] [client 127.0.0.1:38258] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar

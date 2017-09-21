@@ -3,6 +3,7 @@ from string import Template
 from os import environ
 
 from core.db import DBQuery
+from core.collector import Collector
 
 
 class Domicilio(object):
@@ -165,6 +166,15 @@ class DomicilioController(object):
         self.model.domicilio_id = obj_id
         self.model.delete()
         self.view.eliminar()
+
+    def listar(self):
+        obj = Collector()
+        obj.get('Domicilio')
+        print "Content-type: text/html; charset= utf-8"
+        print ""
+        for objeto in obj.colection:
+            print vars(objeto)
+            print "<br>"
 
 class DomicilioHelper(object):
     pass
