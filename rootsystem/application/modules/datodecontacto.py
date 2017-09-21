@@ -1,3 +1,5 @@
+#-*- coding:utf-8 -*-
+
 from cgi import FieldStorage
 from string import Template
 from os import environ
@@ -21,7 +23,14 @@ class DatoDeContacto(object):
         self.datodecontacto_id = DBQuery().execute(sql)
 
     def update(self):
-        pass
+        sql = """
+            UPDATE datodecontacto
+            SET nombre = {},
+                mail = {},
+                telefono = {}
+            WHERE datodecontacto_id = {}
+        """.format(self.nombre, self.mail, self.telefono, self.datodecontacto_id)
+        DBQuery().execute(sql)
 
     def select(self):
         pass
@@ -46,8 +55,14 @@ class DatoDeContactoView(object):
     def ver(self):
         pass
 
-    def editar(self):
-        pass
+    def editar(self, objeto):
+        diccionario = vars(objeto)
+        with open("/home/debian/server/crm/rootsystem/static/editar_datodecontacto.html") as f:
+            html =f.read()
+        render = Template(html).safe_substitute(diccionario)
+        print "Content-type: text/html; charset=utf-8"
+        print ""
+        print render
 
     def eliminar(self):
         pass
@@ -74,6 +89,13 @@ class DatodecontactoController(object):
 
         self.model.insert()
         self.view.guardar()
+
+    def editar(self):
+        obj_id = int(environ['REQUEST_URI'].split('/')[-1])
+        self.model.datodecontacto_id = obj_id
+        self.model.select()
+        self.view.editar(self.model)
+
 
 class DatoDeContactoHelper(object):
     pass
