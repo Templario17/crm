@@ -1,6 +1,7 @@
 from cgi import FieldStorage
 from string import Template
 from os import environ
+import re
 
 from core.db import DBQuery
 from core.collector import Collector
@@ -88,6 +89,20 @@ class ProductoView(object):
         print ""
         print html
 
+    def listar(self, coleccion):
+        with open("/home/debian/server/crm/rootsystem/static/listar_producto.html") as f:
+            html = f.read()
+        regex = re.compile("<!--fila-->(.|\n){1,}<!--fila-->")
+        bloque = regex.search(html).group(0)
+        render = ''
+        for objeto in coleccion:
+            diccionario = vars(objeto)
+            render += Template(bloque).safe_substitute(diccionario)
+        render_final = html.replace(bloque, render)
+        print "content-type: text/html; charset=utf-8"
+        print ""
+        print render_final
+
 class ProductoController(object):
 
     def __init__(self):
@@ -142,11 +157,8 @@ class ProductoController(object):
     def listar(self):
         obj = Collector()
         obj.get("Producto")
-        print "Content-type: text/html; charset=utf-8"
-        print ""
-        for objeto in obj.coleccion:
-            print vars(objeto)
-            print "<br>"
+        self.view.listar(obj.coleccion)
+
 
 class ProductoHelper(object):
     pass

@@ -904,3 +904,8 @@
 [Thu Sep 21 15:29:48.364173 2017] [cgi:error] [pid 1147] [client 127.0.0.1:36802] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/editar/1
 [Thu Sep 21 15:29:48.364205 2017] [cgi:error] [pid 1147] [client 127.0.0.1:36802] AH01215: AttributeError: 'DatodecontactoController' object has no attribute 'actualizar', referer: http://crm.local/datodecontacto/editar/1
 [Thu Sep 21 15:29:48.367459 2017] [cgi:error] [pid 1147] [client 127.0.0.1:36802] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/editar/1
+[Tue Sep 26 14:00:17.799889 2017] [cgi:error] [pid 1253] [client 127.0.0.1:48910] AH01215: Traceback (most recent call last):
+[Tue Sep 26 14:00:17.848554 2017] [cgi:error] [pid 1253] [client 127.0.0.1:48910] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Sep 26 14:00:17.848576 2017] [cgi:error] [pid 1253] [client 127.0.0.1:48910] AH01215:     recurso = uri[2]
+[Tue Sep 26 14:00:17.848588 2017] [cgi:error] [pid 1253] [client 127.0.0.1:48910] AH01215: IndexError: list index out of range
+[Tue Sep 26 14:00:17.848609 2017] [cgi:error] [pid 1253] [client 127.0.0.1:48910] End of script output before headers: xfc.py
