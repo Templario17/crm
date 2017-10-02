@@ -968,3 +968,810 @@
 [Mon Oct 02 15:59:01.733130 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] AH01215:     self.model.agregar()
 [Mon Oct 02 15:59:01.733161 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] AH01215: AttributeError: 'DatoDeContacto' object has no attribute 'agregar'
 [Mon Oct 02 15:59:01.738643 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] End of script output before headers: xfc.py
+[Mon Oct 02 16:26:10.343617 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215: Traceback (most recent call last):
+[Mon Oct 02 16:26:10.343708 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 16:26:10.343726 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 16:26:10.343769 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 170, in listar
+[Mon Oct 02 16:26:10.343787 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215:     obj.get("datodecontacto")
+[Mon Oct 02 16:26:10.343826 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215:   File "/home/debian/server/crm/rootsystem/application/core/collector.py", line 13, in get
+[Mon Oct 02 16:26:10.343854 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215:     exec "from modules.{} import {}".format(cls_lower, clase)
+[Mon Oct 02 16:26:10.343874 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215:   File "<string>", line 1, in <module>
+[Mon Oct 02 16:26:10.343899 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] AH01215: ImportError: cannot import name datodecontacto
+[Mon Oct 02 16:26:10.348937 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40560] End of script output before headers: xfc.py
+[Mon Oct 02 16:29:54.714570 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215: Traceback (most recent call last):
+[Mon Oct 02 16:29:54.714652 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 16:29:54.714670 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 16:29:54.714709 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 170, in listar
+[Mon Oct 02 16:29:54.714726 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215:     obj.get("Datodecontacto")
+[Mon Oct 02 16:29:54.714760 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215:   File "/home/debian/server/crm/rootsystem/application/core/collector.py", line 13, in get
+[Mon Oct 02 16:29:54.714785 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215:     exec "from modules.{} import {}".format(cls_lower, clase)
+[Mon Oct 02 16:29:54.714803 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215:   File "<string>", line 1, in <module>
+[Mon Oct 02 16:29:54.714835 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] AH01215: ImportError: cannot import name Datodecontacto
+[Mon Oct 02 16:29:54.719941 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40578] End of script output before headers: xfc.py
+[Mon Oct 02 17:01:21.132435 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40880] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:21.132510 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40880] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:21.132527 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40880] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:21.132565 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40880] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:21.132575 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40880] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:21.132591 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40880] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:27.023899 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40884] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:27.023957 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40884] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:27.023967 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40884] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:27.023989 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40884] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:27.023998 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40884] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:27.024014 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40884] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:46.836639 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:46.836716 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:46.836734 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:46.836776 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:46.836794 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:46.836823 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:49.402755 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:49.402853 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:49.402873 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:49.402908 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:49.402924 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:49.402951 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40886] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:49.776464 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:49.776564 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:49.776629 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215:     
+[Mon Oct 02 17:01:49.776653 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215: getattr(c, recurso)()
+[Mon Oct 02 17:01:49.776717 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:49.776782 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215:     
+[Mon Oct 02 17:01:49.776807 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215: for objeto in obj.colection:
+[Mon Oct 02 17:01:49.776859 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215: AttributeError
+[Mon Oct 02 17:01:49.776877 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215: : 
+[Mon Oct 02 17:01:49.776908 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:49.776924 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40888] AH01215: 
+[Mon Oct 02 17:01:50.386618 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40890] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:50.386698 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40890] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:50.386716 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40890] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:50.386755 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40890] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:50.386774 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40890] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:50.386802 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40890] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:50.491213 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40892] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:50.491284 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40892] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:50.491301 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40892] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:50.491336 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40892] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:50.491353 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40892] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:50.491379 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40892] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:50.617871 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40894] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:50.617945 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40894] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:50.617963 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40894] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:50.617999 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40894] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:50.618016 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40894] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:50.618042 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40894] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:50.752956 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40896] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:50.753018 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40896] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:50.753030 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40896] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:50.753052 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40896] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:50.753061 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40896] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:50.753077 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40896] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:50.963551 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40898] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:50.963637 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40898] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:50.963654 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40898] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:50.963691 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40898] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:50.963707 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40898] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:50.963732 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40898] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:51.144421 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40900] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:51.144492 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40900] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:51.144511 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40900] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:51.144547 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40900] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:51.144564 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40900] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:51.144591 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40900] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:51.300386 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40902] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:51.300456 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40902] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:51.300473 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40902] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:51.300509 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40902] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:51.300525 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40902] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:51.300551 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40902] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:51.494738 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40904] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:51.494822 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40904] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:51.494841 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40904] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:51.494877 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40904] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:51.494894 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40904] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:51.494920 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40904] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:51.710372 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40906] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:51.710447 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40906] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:51.710464 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40906] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:51.710500 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40906] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:51.710530 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40906] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:51.710557 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40906] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:51.886277 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40908] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:51.886347 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40908] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:51.886363 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40908] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:51.886398 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40908] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:51.886415 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40908] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:51.886441 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40908] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:51.970118 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40910] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:51.970187 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40910] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:51.970203 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40910] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:51.970238 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40910] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:51.970255 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40910] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:51.970281 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40910] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:52.094546 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40912] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:52.094617 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40912] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:52.094634 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40912] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:52.094669 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40912] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:52.094685 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40912] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:52.094711 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40912] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:52.227730 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40914] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:52.227800 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40914] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:52.227818 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40914] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:52.227852 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40914] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:52.227869 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40914] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:52.227895 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40914] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:52.388588 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40916] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:52.388662 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40916] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:52.388691 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40916] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:52.388725 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40916] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:52.388741 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40916] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:52.388766 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40916] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:52.474997 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40918] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:52.475074 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40918] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:52.475091 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40918] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:52.475126 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40918] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:52.475143 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40918] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:52.475168 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40918] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:52.602583 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40920] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:52.602654 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40920] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:52.602670 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40920] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:52.602706 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40920] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:52.602724 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40920] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:52.602750 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40920] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:52.729325 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40922] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:52.729396 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40922] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:52.729413 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40922] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:52.729448 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40922] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:52.729464 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40922] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:52.729490 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40922] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:52.875950 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:52.876028 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:52.876077 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215:     
+[Mon Oct 02 17:01:52.876103 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215: getattr(c, recurso)()
+[Mon Oct 02 17:01:52.876167 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:52.876233 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215:     
+[Mon Oct 02 17:01:52.876272 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215: for objeto in obj.colection:
+[Mon Oct 02 17:01:52.876312 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215: AttributeError
+[Mon Oct 02 17:01:52.876330 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215: : 
+[Mon Oct 02 17:01:52.876359 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:52.876376 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40924] AH01215: 
+[Mon Oct 02 17:01:52.965804 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40926] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:52.965862 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40926] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:52.965879 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40926] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:52.965914 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40926] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:52.965931 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40926] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:52.965956 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40926] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:53.164791 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40928] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:53.164861 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40928] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:53.164878 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40928] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:53.164912 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40928] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:53.164929 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40928] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:53.164954 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40928] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:53.475465 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40930] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:53.475536 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40930] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:53.475555 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40930] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:53.475590 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40930] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:53.475607 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40930] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:53.475633 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40930] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:53.562268 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40932] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:53.562339 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40932] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:53.562356 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40932] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:53.562391 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40932] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:53.562408 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40932] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:53.562433 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40932] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:53.838572 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:53.838706 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:53.838761 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215:     
+[Mon Oct 02 17:01:53.838788 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215: getattr(c, recurso)()
+[Mon Oct 02 17:01:53.838926 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:53.838999 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215:     
+[Mon Oct 02 17:01:53.839026 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215: for objeto in obj.colection:
+[Mon Oct 02 17:01:53.839068 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215: AttributeError
+[Mon Oct 02 17:01:53.839086 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215: : 
+[Mon Oct 02 17:01:53.839116 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:53.839132 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40934] AH01215: 
+[Mon Oct 02 17:01:53.950152 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40936] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:53.950227 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40936] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:53.950246 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40936] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:53.950281 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40936] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:53.950298 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40936] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:53.950325 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40936] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:54.066289 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40938] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:54.066360 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40938] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:54.066378 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40938] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:54.066414 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40938] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:54.066431 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40938] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:54.066455 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40938] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:54.233949 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40940] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:54.234021 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40940] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:54.234038 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40940] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:54.234073 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40940] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:54.234090 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40940] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:54.234115 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40940] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:54.313215 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40942] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:54.313291 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40942] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:54.313309 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40942] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:54.313345 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40942] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:54.313362 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40942] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:54.313388 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40942] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:54.438128 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40944] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:54.438200 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40944] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:54.438217 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40944] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:54.438252 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40944] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:54.438268 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40944] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:54.438295 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40944] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:54.529555 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40946] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:54.529630 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40946] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:54.529648 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40946] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:54.529683 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40946] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:54.529700 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40946] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:54.529725 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40946] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:54.674179 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40948] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:54.674262 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40948] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:54.674279 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40948] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:54.674314 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40948] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:54.674331 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40948] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:54.674355 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40948] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:54.774823 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40950] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:54.774881 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40950] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:54.774898 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40950] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:54.774933 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40950] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:54.774961 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40950] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:54.774988 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40950] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:54.968880 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40952] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:54.968939 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40952] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:54.968956 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40952] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:54.968991 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40952] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:54.969008 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40952] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:54.969033 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40952] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:55.056143 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40954] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:55.056214 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40954] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:55.056231 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40954] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:55.056266 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40954] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:55.056283 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40954] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:55.056308 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40954] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:55.274753 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:55.274911 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:55.274960 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215:     
+[Mon Oct 02 17:01:55.274987 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215: getattr(c, recurso)()
+[Mon Oct 02 17:01:55.275055 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:55.275121 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215:     
+[Mon Oct 02 17:01:55.275149 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215: for objeto in obj.colection:
+[Mon Oct 02 17:01:55.275187 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215: AttributeError
+[Mon Oct 02 17:01:55.275206 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215: : 
+[Mon Oct 02 17:01:55.275238 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:55.275256 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40956] AH01215: 
+[Mon Oct 02 17:01:55.306907 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40958] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:55.306973 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40958] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:55.306992 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40958] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:55.307025 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40958] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:55.307053 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40958] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:55.307077 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40958] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:55.461576 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40960] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:55.461646 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40960] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:55.461663 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40960] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:55.461697 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40960] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:55.461714 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40960] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:55.461740 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40960] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:55.533673 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40962] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:55.533747 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40962] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:55.533764 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40962] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:55.533800 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40962] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:55.533816 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40962] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:55.533841 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40962] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:58.280523 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40964] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:58.280592 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40964] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:58.280608 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40964] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:58.280643 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40964] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:58.280660 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40964] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:58.280685 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40964] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:58.490853 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40966] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:58.490926 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40966] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:58.490944 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40966] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:58.490982 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40966] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:58.490998 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40966] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:58.491023 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40966] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:58.707709 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40968] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:58.707780 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40968] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:58.707810 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40968] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:58.707846 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40968] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:58.707863 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40968] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:58.707890 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40968] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:58.766661 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40970] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:58.766733 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40970] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:58.766753 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40970] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:58.766788 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40970] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:58.766805 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40970] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:58.766844 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40970] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:58.976222 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40972] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:58.976291 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40972] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:58.976306 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40972] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:58.976340 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40972] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:58.976355 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40972] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:58.976378 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40972] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:59.130029 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40974] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:59.130100 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40974] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:59.130115 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40974] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:59.130151 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40974] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:59.130166 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40974] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:59.130190 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40974] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:59.369572 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40976] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:59.369645 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40976] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:59.369663 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40976] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:59.369697 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40976] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:59.369714 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40976] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:59.369752 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40976] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:59.490651 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40978] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:59.490717 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40978] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:59.490728 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40978] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:59.490750 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40978] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:59.490760 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40978] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:59.490775 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40978] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:59.657937 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40980] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:59.658007 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40980] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:59.658025 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40980] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:59.658059 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40980] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:59.658076 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40980] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:59.658102 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40980] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:59.804628 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40982] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:59.804700 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40982] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:59.804718 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40982] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:59.804752 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40982] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:59.804769 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40982] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:59.804794 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40982] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:01:59.910718 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40984] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:01:59.910789 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40984] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:01:59.910817 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40984] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:01:59.910854 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40984] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:01:59.910871 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40984] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:01:59.910897 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40984] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:00.042951 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40986] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:00.043019 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40986] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:00.043036 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40986] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:00.043083 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40986] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:00.043100 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40986] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:00.043126 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40986] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:00.293995 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40988] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:00.294067 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40988] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:00.294084 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40988] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:00.294119 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40988] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:00.294136 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40988] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:00.294161 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40988] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:00.425849 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40990] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:00.425920 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40990] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:00.425937 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40990] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:00.425972 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40990] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:00.425988 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40990] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:00.426015 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40990] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:00.578712 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40992] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:00.578782 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40992] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:00.578799 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40992] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:00.578847 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40992] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:00.578866 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40992] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:00.578892 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40992] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:00.676857 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40994] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:00.676936 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40994] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:00.676954 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40994] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:00.676994 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40994] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:00.677011 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40994] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:00.677038 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40994] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:00.878921 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40996] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:00.878993 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40996] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:00.879010 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40996] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:00.879044 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40996] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:00.879061 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40996] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:00.879087 2017] [cgi:error] [pid 19604] [client 127.0.0.1:40996] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:00.986771 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40998] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:00.986844 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40998] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:00.986862 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40998] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:00.986898 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40998] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:00.986914 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40998] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:00.986939 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40998] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:01.118633 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:01.118736 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:01.118784 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215:     
+[Mon Oct 02 17:02:01.118840 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215: getattr(c, recurso)()
+[Mon Oct 02 17:02:01.118955 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:01.119025 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215:     
+[Mon Oct 02 17:02:01.119053 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215: for objeto in obj.colection:
+[Mon Oct 02 17:02:01.119094 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215: AttributeError
+[Mon Oct 02 17:02:01.119113 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215: : 
+[Mon Oct 02 17:02:01.119147 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:01.119164 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41000] AH01215: 
+[Mon Oct 02 17:02:01.230610 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41002] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:01.230677 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41002] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:01.230693 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41002] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:01.230730 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41002] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:01.230748 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41002] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:01.230773 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41002] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:01.394213 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41004] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:01.394303 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41004] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:01.394322 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41004] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:01.394362 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41004] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:01.394382 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41004] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:01.394410 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41004] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:01.543666 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41006] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:01.543737 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41006] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:01.543754 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41006] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:01.543789 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41006] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:01.543805 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41006] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:01.543831 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41006] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:01.600706 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41008] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:01.600778 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41008] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:01.600794 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41008] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:01.600830 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41008] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:01.600847 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41008] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:01.600871 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41008] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:01.732670 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41010] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:01.732744 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41010] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:01.732762 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41010] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:01.732800 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41010] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:01.732818 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41010] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:01.732845 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41010] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:01.903262 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41012] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:01.903320 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41012] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:01.903337 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41012] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:01.903371 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41012] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:01.903400 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41012] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:01.903426 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41012] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:02.023705 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41014] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:02.023775 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41014] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:02.023792 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41014] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:02.023827 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41014] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:02.023843 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41014] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:02.023868 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41014] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:02.176854 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41016] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:02.176926 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41016] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:02.176943 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41016] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:02.176978 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41016] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:02.176994 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41016] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:02.177019 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41016] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:02.366400 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41018] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:02.366472 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41018] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:02.366489 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41018] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:02.366524 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41018] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:02.366541 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41018] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:02.366567 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41018] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:02.436102 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41020] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:02.438677 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41020] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:02.438722 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41020] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:02.438758 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41020] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:02.438774 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41020] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:02.438797 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41020] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:02.535425 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41022] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:02.535497 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41022] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:02.535529 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41022] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:02.535565 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41022] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:02.535581 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41022] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:02.535607 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41022] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:02.632407 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41024] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:02.632487 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41024] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:02.632508 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41024] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:02.632546 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41024] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:02.632563 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41024] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:02.632590 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41024] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:02.758837 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41026] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:02.759912 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41026] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:02.759946 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41026] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:02.759983 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41026] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:02.760001 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41026] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:02.760025 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41026] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:02.958879 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41028] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:02.958942 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41028] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:02.958959 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41028] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:02.958993 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41028] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:02.959010 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41028] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:02.959035 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41028] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:03.104647 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:03.104750 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:03.104797 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215:     
+[Mon Oct 02 17:02:03.104822 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215: getattr(c, recurso)()
+[Mon Oct 02 17:02:03.104888 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:03.104966 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215:     
+[Mon Oct 02 17:02:03.104994 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215: for objeto in obj.colection:
+[Mon Oct 02 17:02:03.105030 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215: AttributeError
+[Mon Oct 02 17:02:03.105048 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215: : 
+[Mon Oct 02 17:02:03.105076 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:03.105093 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41030] AH01215: 
+[Mon Oct 02 17:02:03.226414 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:03.226489 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:03.226506 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:03.226541 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:03.226558 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:03.226585 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:06.750252 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:06.750328 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:06.750344 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:06.750380 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:06.750396 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:06.750422 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:07.925008 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:07.925099 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:07.925141 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:     
+[Mon Oct 02 17:02:07.925166 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: getattr(c, recurso)()
+[Mon Oct 02 17:02:07.925230 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:07.925296 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215:     
+[Mon Oct 02 17:02:07.925324 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: for objeto in obj.colection:
+[Mon Oct 02 17:02:07.925360 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: AttributeError
+[Mon Oct 02 17:02:07.925378 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: : 
+[Mon Oct 02 17:02:07.925408 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:07.925426 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41032] AH01215: 
+[Mon Oct 02 17:02:07.975651 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41036] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:07.975722 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41036] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:07.975750 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41036] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:07.975786 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41036] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:07.975802 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41036] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:07.975829 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41036] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:08.160966 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41038] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:08.161036 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41038] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:08.161052 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41038] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:08.161088 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41038] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:08.161105 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41038] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:08.161131 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41038] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:08.263352 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:08.263419 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:08.263433 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:08.263469 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:08.263484 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:08.263507 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:09.118296 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:09.118372 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:09.118388 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:09.118422 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:09.118439 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:09.118465 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41040] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:09.243932 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41042] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:09.244007 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41042] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:09.244028 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41042] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:09.244065 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41042] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:09.244083 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41042] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:09.244116 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41042] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:09.418674 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41044] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:09.418742 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41044] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:09.418758 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41044] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:09.418791 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41044] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:09.418819 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41044] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:09.418847 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41044] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:09.825457 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41046] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:09.825530 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41046] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:09.825549 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41046] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:09.825585 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41046] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:09.825604 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41046] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:09.825631 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41046] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:10.058338 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41048] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:10.058419 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41048] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:10.058438 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41048] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:10.058525 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41048] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:10.058548 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41048] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:10.058575 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41048] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:10.257865 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41050] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:10.257933 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41050] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:10.257948 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41050] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:10.257982 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41050] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:10.257997 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41050] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:10.258020 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41050] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:10.426954 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41052] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:10.427027 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41052] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:10.427044 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41052] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:10.427079 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41052] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:10.427108 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41052] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:10.427134 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41052] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:10.637796 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41054] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:10.637867 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41054] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:10.637884 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41054] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:10.637919 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41054] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:10.637935 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41054] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:10.637961 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41054] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:10.832881 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41056] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:10.832959 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41056] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:10.832976 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41056] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:10.833011 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41056] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:10.833028 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41056] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:10.833053 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41056] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:11.061201 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41058] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:11.061277 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41058] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:11.061293 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41058] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:11.061327 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41058] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:11.061342 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41058] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:11.061366 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41058] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:11.247128 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41060] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:11.247202 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41060] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:11.247220 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41060] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:11.247255 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41060] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:11.247272 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41060] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:11.247295 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41060] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:11.409533 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41062] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:11.409617 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41062] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:11.409634 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41062] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:11.409670 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41062] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:11.409686 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41062] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:11.409713 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41062] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:11.612347 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41064] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:11.612413 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41064] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:11.612429 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41064] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:11.612455 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41064] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:11.612466 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41064] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:11.612481 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41064] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:14.109289 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41066] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:14.109365 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41066] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:14.109383 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41066] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:14.109422 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41066] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:14.109440 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41066] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:14.109468 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41066] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:30.410196 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41068] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:30.410274 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41068] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:30.410293 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41068] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:30.410339 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41068] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:30.410357 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41068] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:30.410385 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41068] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:31.185812 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41070] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:31.185882 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41070] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:31.185899 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41070] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:31.185934 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41070] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:31.185964 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41070] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:31.185991 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41070] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:31.411802 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41072] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:31.411861 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41072] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:31.411871 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41072] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:31.411893 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41072] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:31.411903 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41072] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:31.411918 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41072] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:31.746619 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41074] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:31.746687 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41074] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:31.746703 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41074] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:31.746738 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41074] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:31.746755 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41074] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:31.746781 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41074] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:32.060075 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:32.060159 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:32.060202 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215:     
+[Mon Oct 02 17:02:32.060226 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215: getattr(c, recurso)()
+[Mon Oct 02 17:02:32.060288 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:32.060351 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215:     
+[Mon Oct 02 17:02:32.060378 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215: for objeto in obj.colection:
+[Mon Oct 02 17:02:32.060417 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215: AttributeError
+[Mon Oct 02 17:02:32.060435 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215: : 
+[Mon Oct 02 17:02:32.060464 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:32.060480 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41076] AH01215: 
+[Mon Oct 02 17:02:32.197494 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41078] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:32.197566 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41078] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:32.197584 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41078] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:32.197619 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41078] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:32.197636 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41078] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:32.197673 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41078] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:32.303317 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41080] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:32.303389 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41080] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:32.303406 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41080] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:32.303441 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41080] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:32.303457 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41080] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:32.303483 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41080] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:02:54.397621 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41084] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:02:54.397697 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41084] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:02:54.397714 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41084] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:02:54.397749 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41084] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:02:54.397766 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41084] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:02:54.397793 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41084] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:03:02.250644 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41086] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:03:02.250702 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41086] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:03:02.250712 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41086] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:03:02.250736 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41086] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 191, in listar
+[Mon Oct 02 17:03:02.250751 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41086] AH01215:     for objeto in obj.colection:
+[Mon Oct 02 17:03:02.250774 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41086] AH01215: AttributeError: 'Collector' object has no attribute 'colection'
+[Mon Oct 02 17:04:07.430340 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:04:07.430421 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:04:07.430437 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:04:07.430471 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 189, in listar
+[Mon Oct 02 17:04:07.430488 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] AH01215:     self.view.listar(obj.coleccion)
+[Mon Oct 02 17:04:07.430522 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 107, in listar
+[Mon Oct 02 17:04:07.430539 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] AH01215:     bloque = regex.search(html).group(0)
+[Mon Oct 02 17:04:07.430561 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] AH01215: AttributeError: 'NoneType' object has no attribute 'group'
+[Mon Oct 02 17:04:07.436253 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41088] End of script output before headers: xfc.py
+[Mon Oct 02 17:07:20.907416 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:07:20.907496 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:07:20.907513 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:07:20.907548 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 189, in listar
+[Mon Oct 02 17:07:20.907570 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] AH01215:     self.view.listar(obj.coleccion)
+[Mon Oct 02 17:07:20.907608 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 107, in listar
+[Mon Oct 02 17:07:20.907629 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] AH01215:     bloque = regex.search(html).group(0)
+[Mon Oct 02 17:07:20.907653 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] AH01215: AttributeError: 'NoneType' object has no attribute 'group'
+[Mon Oct 02 17:07:20.911482 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41094] End of script output before headers: xfc.py
+[Mon Oct 02 17:09:19.276114 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:09:19.276179 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:09:19.276190 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:09:19.276213 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 189, in listar
+[Mon Oct 02 17:09:19.276225 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] AH01215:     self.view.listar(obj.coleccion)
+[Mon Oct 02 17:09:19.276248 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 107, in listar
+[Mon Oct 02 17:09:19.276259 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] AH01215:     bloque = regex.search(html).group(0)
+[Mon Oct 02 17:09:19.276274 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] AH01215: AttributeError: 'NoneType' object has no attribute 'group'
+[Mon Oct 02 17:09:19.281297 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41096] End of script output before headers: xfc.py
+[Mon Oct 02 17:10:52.076407 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:10:52.076486 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:10:52.076503 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:10:52.076539 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 190, in listar
+[Mon Oct 02 17:10:52.076559 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] AH01215:     self.view.listar(obj.coleccion)
+[Mon Oct 02 17:10:52.076597 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 107, in listar
+[Mon Oct 02 17:10:52.076620 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] AH01215:     bloque = regex.search(html).group(0)
+[Mon Oct 02 17:10:52.076648 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] AH01215: AttributeError: 'NoneType' object has no attribute 'group'
+[Mon Oct 02 17:10:52.081179 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41098] End of script output before headers: xfc.py
+[Mon Oct 02 17:11:02.510305 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:11:02.510384 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:11:02.510402 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:11:02.510438 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 150, in ver
+[Mon Oct 02 17:11:02.510453 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] AH01215:     self.model.select()
+[Mon Oct 02 17:11:02.510487 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 49, in select
+[Mon Oct 02 17:11:02.510508 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Mon Oct 02 17:11:02.510530 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] AH01215: IndexError: tuple index out of range
+[Mon Oct 02 17:11:02.514490 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41104] End of script output before headers: xfc.py
+[Mon Oct 02 17:11:38.647298 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:11:38.647384 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:11:38.647402 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:11:38.647436 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 190, in listar
+[Mon Oct 02 17:11:38.647452 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] AH01215:     self.view.listar(obj.coleccion)
+[Mon Oct 02 17:11:38.647484 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 107, in listar
+[Mon Oct 02 17:11:38.647501 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] AH01215:     bloque = regex.search(html).group(0)
+[Mon Oct 02 17:11:38.647524 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] AH01215: AttributeError: 'NoneType' object has no attribute 'group'
+[Mon Oct 02 17:11:38.651715 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41114] End of script output before headers: xfc.py
+[Mon Oct 02 17:13:44.727977 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:13:44.728059 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:13:44.728403 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:13:44.728445 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 190, in listar
+[Mon Oct 02 17:13:44.728464 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] AH01215:     self.view.listar(obj.coleccion)
+[Mon Oct 02 17:13:44.728503 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 107, in listar
+[Mon Oct 02 17:13:44.728526 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] AH01215:     bloque = regex.search(html).group(0)
+[Mon Oct 02 17:13:44.728553 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] AH01215: AttributeError: 'NoneType' object has no attribute 'group'
+[Mon Oct 02 17:13:44.732446 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41116] End of script output before headers: xfc.py
+[Mon Oct 02 17:15:21.115123 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:15:21.115219 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:15:21.115237 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:15:21.115274 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 190, in listar
+[Mon Oct 02 17:15:21.115296 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] AH01215:     self.view.listar(obj.coleccion)
+[Mon Oct 02 17:15:21.115334 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 107, in listar
+[Mon Oct 02 17:15:21.115356 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] AH01215:     bloque = regex.search(html).group(0)
+[Mon Oct 02 17:15:21.115381 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] AH01215: AttributeError: 'NoneType' object has no attribute 'group'
+[Mon Oct 02 17:15:21.119377 2017] [cgi:error] [pid 19604] [client 127.0.0.1:41118] End of script output before headers: xfc.py
+[Mon Oct 02 17:15:29.749513 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:15:29.749595 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:15:29.749613 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:15:29.749649 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 150, in ver
+[Mon Oct 02 17:15:29.749663 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] AH01215:     self.model.select()
+[Mon Oct 02 17:15:29.749699 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 49, in select
+[Mon Oct 02 17:15:29.749719 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Mon Oct 02 17:15:29.749738 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] AH01215: IndexError: tuple index out of range
+[Mon Oct 02 17:15:29.753700 2017] [cgi:error] [pid 21028] [client 127.0.0.1:41120] End of script output before headers: xfc.py
+[Mon Oct 02 17:15:32.840362 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:15:32.840445 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:15:32.840463 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:15:32.840503 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 150, in ver
+[Mon Oct 02 17:15:32.840518 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] AH01215:     self.model.select()
+[Mon Oct 02 17:15:32.840558 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 49, in select
+[Mon Oct 02 17:15:32.840579 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Mon Oct 02 17:15:32.840599 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] AH01215: IndexError: tuple index out of range
+[Mon Oct 02 17:15:32.844562 2017] [cgi:error] [pid 21029] [client 127.0.0.1:41122] End of script output before headers: xfc.py
+[Mon Oct 02 17:15:35.315127 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:15:35.315207 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:15:35.315240 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:15:35.315276 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 150, in ver
+[Mon Oct 02 17:15:35.315292 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] AH01215:     self.model.select()
+[Mon Oct 02 17:15:35.315326 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 49, in select
+[Mon Oct 02 17:15:35.315344 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Mon Oct 02 17:15:35.315360 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] AH01215: IndexError: tuple index out of range
+[Mon Oct 02 17:15:35.319185 2017] [cgi:error] [pid 21030] [client 127.0.0.1:41124] End of script output before headers: xfc.py
+[Mon Oct 02 17:15:37.926724 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:15:37.926794 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:15:37.926820 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:15:37.926858 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 150, in ver
+[Mon Oct 02 17:15:37.926877 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] AH01215:     self.model.select()
+[Mon Oct 02 17:15:37.926909 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 49, in select
+[Mon Oct 02 17:15:37.926930 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Mon Oct 02 17:15:37.926951 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] AH01215: IndexError: tuple index out of range
+[Mon Oct 02 17:15:37.932156 2017] [cgi:error] [pid 21032] [client 127.0.0.1:41128] End of script output before headers: xfc.py
+[Mon Oct 02 17:15:42.602337 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215: Traceback (most recent call last):
+[Mon Oct 02 17:15:42.602413 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 17:15:42.602430 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 17:15:42.602464 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 150, in ver
+[Mon Oct 02 17:15:42.602479 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215:     self.model.select()
+[Mon Oct 02 17:15:42.602515 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 49, in select
+[Mon Oct 02 17:15:42.602534 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215:     resultado = DBQuery().execute(sql)[0]
+[Mon Oct 02 17:15:42.602553 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215: IndexError: tuple index out of range
+[Mon Oct 02 17:15:42.606960 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] End of script output before headers: xfc.py

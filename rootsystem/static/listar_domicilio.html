@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Domicilios</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.css"/>
+    <style>
+        body { padding-top: 60px; margin-bottom: 60px; }
+    </style>
+
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="starter-template">
+
+      <!-- contenido -->
+      <div class="panel panel-primary">
+
+        <!-- PANEL CABECERA DEL FORMULARIO -->
+        <div class="panel-heading">
+          <h4><span class="glyphicon glyphicon-task"></span> <b>Lista de Domicilio</b></h4>
+        </div>
+
+
+        <div class="panel-body">
+            <table class="display table table-borderer table-responsive" id="tabla123">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Numero</th>
+                        <th>Puerta</th>
+                        <th>Calle</th>
+                        <th>Piso</th>
+                        <th>ciudad</th>
+                        <th>Codigo Postal</th>
+                        <th colspan="2" class="text-center">Administrar</th>
+                    <tr>
+                </thead>
+                <tbody>
+                    <!--fila-->
+                    <tr>
+                        <td>$domicilio_id</td>
+                        <td><a href="/domicilio/ver/$domicilio_id" title="Ver domicilio">$domicilio</a></td>
+                        <th>$puerta</th>
+                        <th>$calle</th>
+                        <th>$piso</th>
+                        <th>$ciudad</th>
+                        <th>$cp</th>
+                        <td class="text-center"><a href="/domicilio/editar/$domicilio_id"
+                            title="Editar domicilio"><i class="glyphicon glyphicon-pencil"></i></a></td>
+                        <td class="text-center"><a href="/domicilio/eliminar/$domicilio_id"
+                            title="Eliminar domicilio"><i class="glyphicon glyphicon-trash"></i></a></td>
+                    </tr>
+                    <!--fila-->
+                </tbody>
+            </table>
+            <a href="/domicilio/agregar" class="btn btn-primary">Agregar nuevo</a>
+        </div>
+      </div>
+      <!-- contenido -->
+
+
+    </div>
+  </div>
+  </body>
+</html>

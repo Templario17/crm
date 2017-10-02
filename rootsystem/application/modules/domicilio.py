@@ -1,6 +1,7 @@
 from cgi import FieldStorage
 from string import Template
 from os import environ
+import re
 
 from core.db import DBQuery
 from core.collector import Collector
@@ -99,6 +100,21 @@ class DomicilioView(object):
         print ""
         print html
 
+    def listar(self, coleccion):
+        with open("/home/debian/server/crm/rootsystem/static/listar_domicilio.html", "r") as f:
+            html = f.read()
+        regex = re.compile("<!--fila-->(.|\n){1,}<--fila-->")
+        bloque = regex.search(html).group(0)
+        render = ''
+        for objeto in coleccion:
+            dicc = vars(objeto)
+            render += Template(bloque).safe_substitute(dicc)
+        render_final = html.replace(bloque, render)
+        print "Content-type: text/html; charset=utf-8"
+        print ""
+        print render_final
+
+
 
 class DomicilioController(object):
 
@@ -169,12 +185,10 @@ class DomicilioController(object):
 
     def listar(self):
         obj = Collector()
-        obj.get('Domicilio')
-        print "Content-type: text/html; charset= utf-8"
-        print ""
-        for objeto in obj.colection:
-            print vars(objeto)
-            print "<br>"
+        obj.get("Domicilio")
+
+        self.view.listar(obj.coleccion)
+
 
 class DomicilioHelper(object):
     pass

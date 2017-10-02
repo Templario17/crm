@@ -4,8 +4,10 @@ from cgi import FieldStorage
 from string import Template
 from os import environ
 from string import Template
+import re
 
 from core.db import DBQuery
+from core.collector import Collector
 
 
 class DatoDeContacto(object):
@@ -83,7 +85,7 @@ class DatoDeContactoView(object):
 
     def editar(self, objeto):
         diccionario = vars(objeto)
-        with open("/home/debian/server/crm/rootsystem/static/editar_datodecontacto.html") as f:
+        with open("/home/debian/server/crm/rootsystem/static/editar_datodecontacto.html", "r") as f:
             html =f.read()
         render = Template(html).safe_substitute(diccionario)
         print "Content-type: text/html; charset=utf-8"
@@ -92,6 +94,21 @@ class DatoDeContactoView(object):
 
     def eliminar(self):
         pass
+
+    def listar(self, coleccion):
+        with open("/home/debian/server/crm/rootsystem/static/listar_datodecontacto.html", "r") as f:
+            html = f.read()
+        regex = re.compile("<!--fila-->(.|\n){1,}<!--fila-->")
+        bloque = regex.search(html).group(0)
+        render = ''
+        for objeto in coleccion:
+            dicc = vars(objeto)
+            render += Template(bloque).safe_substitute(dicc)
+        render_final = html.replace(bloque, render)
+        print "content-type: text/html; charset=utf-8"
+        print ""
+        print render_final
+
 
 
 class DatodecontactoController(object):
@@ -147,6 +164,11 @@ class DatodecontactoController(object):
 
         self.model.delete()
         self.view.agregar()
+
+    def listar(self):
+        obj = Collector()
+        obj.get("DatoDeContacto")
+        self.view.listar(obj.coleccion)
 
 
 class DatoDeContactoHelper(object):
