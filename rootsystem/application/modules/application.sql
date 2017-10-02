@@ -16,7 +16,6 @@ CREATE TABLE IF NOT EXISTS domicilio(
 
 CREATE TABLE IF NOT EXISTS datodecontacto(
   datodecontacto_id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  nombre VARCHAR(100),
-  mail VARCHAR(100),
-  telefono VARCHAR(25)
+  denominacion VARCHAR(100),
+  valor VARCHAR(100)
 )ENGINE=InnoDB;

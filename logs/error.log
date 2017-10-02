@@ -909,3 +909,62 @@
 [Tue Sep 26 14:00:17.848576 2017] [cgi:error] [pid 1253] [client 127.0.0.1:48910] AH01215:     recurso = uri[2]
 [Tue Sep 26 14:00:17.848588 2017] [cgi:error] [pid 1253] [client 127.0.0.1:48910] AH01215: IndexError: list index out of range
 [Tue Sep 26 14:00:17.848609 2017] [cgi:error] [pid 1253] [client 127.0.0.1:48910] End of script output before headers: xfc.py
+[Mon Oct 02 15:33:47.984551 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40338] AH01215: Traceback (most recent call last):
+[Mon Oct 02 15:33:48.042919 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40338] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Mon Oct 02 15:33:48.042959 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40338] AH01215:     recurso = uri[2]
+[Mon Oct 02 15:33:48.042975 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40338] AH01215: IndexError: list index out of range
+[Mon Oct 02 15:33:48.042998 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40338] End of script output before headers: xfc.py
+[Mon Oct 02 15:34:12.535424 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:34:12.535564 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:34:12.535596 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:34:12.535636 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 111, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:34:12.535649 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] AH01215:     self.model.insert(), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:34:12.535689 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 22, in insert, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:34:12.535711 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] AH01215:     """.format(self.denominacion, self.valor), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:34:12.535728 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] AH01215: IndexError: tuple index out of range, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:34:12.539634 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40344] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:19.916330 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40368] AH01215: Traceback (most recent call last):
+[Mon Oct 02 15:39:19.916463 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40368] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Mon Oct 02 15:39:19.916481 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40368] AH01215:     recurso = uri[2]
+[Mon Oct 02 15:39:19.916500 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40368] AH01215: IndexError: list index out of range
+[Mon Oct 02 15:39:19.919100 2017] [cgi:error] [pid 21030] [client 127.0.0.1:40368] End of script output before headers: xfc.py
+[Mon Oct 02 15:39:48.833940 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215: Traceback (most recent call last):, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834075 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834093 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:     getattr(c, recurso)(), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834120 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 111, in guardar, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834130 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:     self.model.insert(), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834153 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 23, in insert, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834167 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:     self.datodecontacto_id = DBQuery().execute(sql), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834187 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:   File "/home/debian/server/crm/rootsystem/application/core/db.py", line 16, in execute, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834196 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:     cursor.execute(self.sql), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.834216 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 174, in execute, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.860445 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:     self.errorhandler(self, exc, value), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.860512 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:   File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.860686 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215:     raise errorclass, errorvalue, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.860753 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] AH01215: _mysql_exceptions.OperationalError: (1054, "Unknown column 'denomincion' in 'field list'"), referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:39:48.866581 2017] [cgi:error] [pid 21032] [client 127.0.0.1:40388] End of script output before headers: xfc.py, referer: http://crm.local/datodecontacto/agregar
+[Mon Oct 02 15:42:14.495575 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] AH01215: Traceback (most recent call last):
+[Mon Oct 02 15:42:14.495654 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 15:42:14.495675 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 15:42:14.495711 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 118, in ver
+[Mon Oct 02 15:42:14.495725 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] AH01215:     self.model.select()
+[Mon Oct 02 15:42:14.495757 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 39, in select
+[Mon Oct 02 15:42:14.495770 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] AH01215:     """.format(self.denominacion_id)
+[Mon Oct 02 15:42:14.495789 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] AH01215: AttributeError: 'DatoDeContacto' object has no attribute 'denominacion_id'
+[Mon Oct 02 15:42:14.498943 2017] [cgi:error] [pid 21028] [client 127.0.0.1:40392] End of script output before headers: xfc.py
+[Mon Oct 02 15:43:01.883659 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] AH01215: Traceback (most recent call last):
+[Mon Oct 02 15:43:01.883741 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 15:43:01.883757 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 15:43:01.883793 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 118, in ver
+[Mon Oct 02 15:43:01.883806 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] AH01215:     self.model.select()
+[Mon Oct 02 15:43:01.883839 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 39, in select
+[Mon Oct 02 15:43:01.883855 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] AH01215:     """.format(self.denominacion_id)
+[Mon Oct 02 15:43:01.883881 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] AH01215: AttributeError: 'DatoDeContacto' object has no attribute 'denominacion_id'
+[Mon Oct 02 15:43:01.886579 2017] [cgi:error] [pid 21029] [client 127.0.0.1:40394] End of script output before headers: xfc.py
+[Mon Oct 02 15:59:01.732943 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] AH01215: Traceback (most recent call last):
+[Mon Oct 02 15:59:01.733037 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Mon Oct 02 15:59:01.733069 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] AH01215:     getattr(c, recurso)()
+[Mon Oct 02 15:59:01.733114 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/datodecontacto.py", line 149, in eliminar
+[Mon Oct 02 15:59:01.733130 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] AH01215:     self.model.agregar()
+[Mon Oct 02 15:59:01.733161 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] AH01215: AttributeError: 'DatoDeContacto' object has no attribute 'agregar'
+[Mon Oct 02 15:59:01.738643 2017] [cgi:error] [pid 21031] [client 127.0.0.1:40434] End of script output before headers: xfc.py

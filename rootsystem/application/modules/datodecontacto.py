@@ -3,6 +3,7 @@
 from cgi import FieldStorage
 from string import Template
 from os import environ
+from string import Template
 
 from core.db import DBQuery
 
@@ -11,32 +12,40 @@ class DatoDeContacto(object):
 
     def __init__(self):
         self.datodecontacto_id = ""
-        self.nombre = ""
-        self.mail = ""
-        self.telefono = ""
+        self.denominacion = ""
+        self.valor = ""
 
     def insert(self):
         sql = """
-            INSERT INTO datodecontacto (nombre, mail, telefono)
-            VALUES ("{}", "{}", "{}")
-        """.format(self.nombre, self.mail, self.telefono)
+            INSERT INTO datodecontacto (denominacion, valor)
+            VALUES ("{}", "{}")
+        """.format(self.denominacion, self.valor)
         self.datodecontacto_id = DBQuery().execute(sql)
 
     def update(self):
         sql = """
             UPDATE datodecontacto
-            SET nombre = {},
-                mail = {},
-                telefono = {}
+            SET denominacion = "{}",
+                valor = "{}"
             WHERE datodecontacto_id = {}
-        """.format(self.nombre, self.mail, self.telefono, self.datodecontacto_id)
+        """.format(self.denominacion, self.valor, self.datodecontacto_id)
         DBQuery().execute(sql)
 
     def select(self):
-        pass
+        sql = """
+            SELECT denominacion, valor
+            FROM datodecontacto
+            WHERE datodecontacto_id = {}
+        """.format(self.datodecontacto_id)
+        resultado = DBQuery().execute(sql)[0]
+        self.denominacion = resultado[0]
+        self.valor = resultado[1]
 
     def delete(self):
-        pass
+        sql = """
+            DELETE FROM datodecontacto WHERE datodecontacto_id = {}
+        """.format(self.datodecontacto_id)
+        DBQuery().execute(sql)
 
 class DatoDeContactoView(object):
 
@@ -52,8 +61,25 @@ class DatoDeContactoView(object):
         print ""
         print "Datos de contacto han sido guardados en la base de datos"
 
-    def ver(self):
-        pass
+
+    def ver(self, objeto):
+        dicc = vars(objeto)
+        with open("/home/debian/server/crm/rootsystem/static/ver_datodecontacto.html", "r") as f:
+            html = f.read()
+        render = Template(html).safe_substitute(dicc)
+        print "Content-type: text/html; charset=utf-8"
+        print ""
+        print render
+
+    def editar(self, objeto):
+        diccionario = vars(objeto)
+        with open("/home/debian/server/crm/rootsystem/static/editar_datodecontacto.html", "r") as f:
+            html = f.read()
+        render = Template(html).safe_substitute(diccionario)
+        print "Content-type: text/html; charset=utf-8"
+        print ""
+        print render
+
 
     def editar(self, objeto):
         diccionario = vars(objeto)
@@ -79,22 +105,48 @@ class DatodecontactoController(object):
 
     def guardar(self):
         form = FieldStorage()
-        nombre = form['nombre'].value
-        mail = form['mail'].value
-        telefono = form['telefono'].value
+        denominacion = form["denominacion"].value
+        valor = form["valor"].value
 
-        self.model.nombre = nombre
-        self.model.mail = mail
-        self.model.telefono = telefono
+        self.model.denominacion = denominacion
+        self.model.valor = valor
 
         self.model.insert()
         self.view.guardar()
 
-    def editar(self):
+
+    def ver(self):
         obj_id = int(environ['REQUEST_URI'].split('/')[-1])
         self.model.datodecontacto_id = obj_id
         self.model.select()
+        self.view.ver(self.model)
+
+    def editar(self):
+        p_id = int(environ['REQUEST_URI'].split('/')[-1])
+        self.model.datodecontacto_id = p_id
+        self.model.select()
         self.view.editar(self.model)
+
+    def actualizar(self):
+        form = FieldStorage()
+        propiedad_id = form["datodecontacto_id"].value
+        denominacion = form["denominacion"].value
+        valor = form["valor"].value
+
+        self.model.datodecontacto_id = propiedad_id
+        self.model.denominacion = denominacion
+        self.model.valor = valor
+
+        self.model.update()
+        self.view.editar(self.model)
+
+
+    def eliminar(self):
+        obj_id = int(environ["REQUEST_URI"].split("/")[-1])
+        self.model.datodecontacto_id = obj_id
+
+        self.model.delete()
+        self.view.agregar()
 
 
 class DatoDeContactoHelper(object):
