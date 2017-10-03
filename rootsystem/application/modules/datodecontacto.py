@@ -13,7 +13,7 @@ from core.collector import Collector
 class DatoDeContacto(object):
 
     def __init__(self):
-        self.datodecontacto_id = ""
+        self.datodecontacto_id = 0
         self.denominacion = ""
         self.valor = ""
 
@@ -82,15 +82,6 @@ class DatoDeContactoView(object):
         print ""
         print render
 
-
-    def editar(self, objeto):
-        diccionario = vars(objeto)
-        with open("/home/debian/server/crm/rootsystem/static/editar_datodecontacto.html", "r") as f:
-            html =f.read()
-        render = Template(html).safe_substitute(diccionario)
-        print "Content-type: text/html; charset=utf-8"
-        print ""
-        print render
 
     def eliminar(self):
         print "content-type: text/html; charset=utf-8"

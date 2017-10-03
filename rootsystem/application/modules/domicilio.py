@@ -103,7 +103,7 @@ class DomicilioView(object):
     def listar(self, coleccion):
         with open("/home/debian/server/crm/rootsystem/static/listar_domicilio.html", "r") as f:
             html = f.read()
-        regex = re.compile("<!--fila-->(.|\n){1,}<--fila-->")
+        regex = re.compile("<!--fila-->(.|\n){1,}<!--fila-->")
         bloque = regex.search(html).group(0)
         render = ''
         for objeto in coleccion:
@@ -142,7 +142,9 @@ class DomicilioController(object):
         self.model.cp = cp
 
         self.model.insert()
-        self.view.guardar()
+        self.redirect()
+#        print "hola mundo {}".format(self)
+
 
     def ver(self):
         obj_id = int(environ['REQUEST_URI'].split("/")[-1])
@@ -175,19 +177,25 @@ class DomicilioController(object):
         self.model.cp = cp
 
         self.model.update()
-        self.view.ver(self.model)
+        self.redirect()
 
     def eliminar(self):
         obj_id = int(environ['REQUEST_URI'].split('/')[-1])
         self.model.domicilio_id = obj_id
         self.model.delete()
-        self.view.eliminar()
+        self.redirect()
 
     def listar(self):
         obj = Collector()
         obj.get("Domicilio")
 
         self.view.listar(obj.coleccion)
+
+    def redirect(self):
+        print "Content-type: text/html; charset=utf-8"
+        print "Location: http://crm.local/domicilio/listar"
+        print ""
+
 
 
 class DomicilioHelper(object):

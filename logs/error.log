@@ -1775,3 +1775,54 @@
 [Mon Oct 02 17:15:42.602534 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215:     resultado = DBQuery().execute(sql)[0]
 [Mon Oct 02 17:15:42.602553 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] AH01215: IndexError: tuple index out of range
 [Mon Oct 02 17:15:42.606960 2017] [cgi:error] [pid 21031] [client 127.0.0.1:41130] End of script output before headers: xfc.py
+[Tue Oct 03 13:48:38.548561 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] AH01215: Traceback (most recent call last):
+[Tue Oct 03 13:48:38.605256 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Tue Oct 03 13:48:38.605278 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] AH01215:     getattr(c, recurso)()
+[Tue Oct 03 13:48:38.605315 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 190, in listar
+[Tue Oct 03 13:48:38.605325 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] AH01215:     self.view.listar(obj.coleccion)
+[Tue Oct 03 13:48:38.605346 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 107, in listar
+[Tue Oct 03 13:48:38.605357 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] AH01215:     bloque = regex.search(html).group(0)
+[Tue Oct 03 13:48:38.605371 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] AH01215: AttributeError: 'NoneType' object has no attribute 'group'
+[Tue Oct 03 13:48:38.605400 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56198] End of script output before headers: xfc.py
+[Tue Oct 03 13:48:39.063876 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56200] AH01215: Traceback (most recent call last):
+[Tue Oct 03 13:48:39.063959 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56200] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Tue Oct 03 13:48:39.063972 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56200] AH01215:     recurso = uri[2]
+[Tue Oct 03 13:48:39.063988 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56200] AH01215: IndexError: list index out of range
+[Tue Oct 03 13:48:39.065648 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56200] End of script output before headers: xfc.py
+[Tue Oct 03 14:37:03.551983 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.552062 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.552080 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.552105 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 130, in guardar, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.552115 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215:     numero = form['numero'].value, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.552131 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.563749 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.563781 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215: KeyError: , referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.563792 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] AH01215: 'numero', referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:37:03.567191 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56412] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.168813 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.168901 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.168920 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.168961 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 130, in guardar, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.168994 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] AH01215:     numero = form['numero'].value, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.169021 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.169036 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.169048 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] AH01215: KeyError: 'numero', referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:38:05.172020 2017] [cgi:error] [pid 4360] [client 127.0.0.1:56414] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.119915 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.119991 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.120012 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.120048 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 130, in guardar, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.120067 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] AH01215:     numero = form['numero'].value, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.120087 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.120096 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.120104 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] AH01215: KeyError: 'numero', referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:39:06.123534 2017] [cgi:error] [pid 4361] [client 127.0.0.1:56416] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.105727 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215: Traceback (most recent call last):, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.105805 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.105820 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215:     getattr(c, recurso)(), referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.105849 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/domicilio.py", line 130, in guardar, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.105866 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215:     numero = form['numero'].value, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.105888 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.105900 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.105912 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215: KeyError: 'numero', referer: http://crm.local/domicilio/agregar
+[Tue Oct 03 14:42:21.110067 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar
