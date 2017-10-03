@@ -393,3 +393,6 @@
 127.0.0.1 - - [02/Oct/2017:17:15:35 -0500] "GET /domicilio/ver/4 HTTP/1.1" 500 723 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
 127.0.0.1 - - [02/Oct/2017:17:15:37 -0500] "GET /domicilio/ver/5 HTTP/1.1" 500 723 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
 127.0.0.1 - - [02/Oct/2017:17:15:42 -0500] "GET /domicilio/ver/7 HTTP/1.1" 500 723 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
+127.0.0.1 - - [02/Oct/2017:17:17:38 -0500] "GET /datodecontacto/listar HTTP/1.1" 200 1144 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
+127.0.0.1 - - [02/Oct/2017:17:17:52 -0500] "GET /producto/listar HTTP/1.1" 200 1123 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
+127.0.0.1 - - [02/Oct/2017:17:17:55 -0500] "GET /producto/ver/1 HTTP/1.1" 200 705 "http://crm.local/producto/listar" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"

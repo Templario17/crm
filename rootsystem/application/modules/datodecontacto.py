@@ -93,7 +93,9 @@ class DatoDeContactoView(object):
         print render
 
     def eliminar(self):
-        pass
+        print "content-type: text/html; charset=utf-8"
+        print ""
+        print "dato elimindo de la base de datos "
 
     def listar(self, coleccion):
         with open("/home/debian/server/crm/rootsystem/static/listar_datodecontacto.html", "r") as f:
@@ -163,7 +165,7 @@ class DatodecontactoController(object):
         self.model.datodecontacto_id = obj_id
 
         self.model.delete()
-        self.view.agregar()
+        self.view.eliminar()
 
     def listar(self):
         obj = Collector()
