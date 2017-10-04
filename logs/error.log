@@ -1826,3 +1826,8 @@
 [Tue Oct 03 14:42:21.105900 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215:     raise KeyError, key, referer: http://crm.local/domicilio/agregar
 [Tue Oct 03 14:42:21.105912 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] AH01215: KeyError: 'numero', referer: http://crm.local/domicilio/agregar
 [Tue Oct 03 14:42:21.110067 2017] [cgi:error] [pid 21405] [client 127.0.0.1:56428] End of script output before headers: xfc.py, referer: http://crm.local/domicilio/agregar
+[Wed Oct 04 09:34:19.666546 2017] [cgi:error] [pid 3974] [client 127.0.0.1:43060] AH01215: Traceback (most recent call last):
+[Wed Oct 04 09:34:19.722731 2017] [cgi:error] [pid 3974] [client 127.0.0.1:43060] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Oct 04 09:34:19.722765 2017] [cgi:error] [pid 3974] [client 127.0.0.1:43060] AH01215:     recurso = uri[2]
+[Wed Oct 04 09:34:19.722786 2017] [cgi:error] [pid 3974] [client 127.0.0.1:43060] AH01215: IndexError: list index out of range
+[Wed Oct 04 09:34:19.722811 2017] [cgi:error] [pid 3974] [client 127.0.0.1:43060] End of script output before headers: xfc.py

@@ -121,7 +121,7 @@ class ProductoController(object):
         self.model.precio = precio
 
         self.model.insert()
-        self.view.guardar()
+        self.redirect()
 
     def ver(self):
         obj_id = int(environ['REQUEST_URI'].split('/')[-1])
@@ -146,18 +146,24 @@ class ProductoController(object):
         self.model.precio = precio
 
         self.model.update()
-        self.view.editar(self.model)
+        self.redirect()
 
     def eliminar(self):
         obj_id = int(environ['REQUEST_URI'].split('/')[-1])
         self.model.producto_id = obj_id
         self.model.delete()
         self.view.eliminar()
+        self.redirect()
 
     def listar(self):
         obj = Collector()
         obj.get("Producto")
         self.view.listar(obj.coleccion)
+
+    def redirect(self):
+        print "Content-type: text/html; charset=utf-8"
+        print "Location: http://crm.local/producto/listar"
+        print ""
 
 
 class ProductoHelper(object):

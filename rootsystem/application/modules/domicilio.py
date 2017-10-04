@@ -10,7 +10,7 @@ from core.collector import Collector
 class Domicilio(object):
 
     def __init__(self):
-        self.domicilio_id = ""
+        self.domicilio_id = 0
         self.numero = ""
         self.puerta = ""
         self.calle = ""
@@ -143,7 +143,7 @@ class DomicilioController(object):
 
         self.model.insert()
         self.redirect()
-#        print "hola mundo {}".format(self)
+
 
 
     def ver(self):
