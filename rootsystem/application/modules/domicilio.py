@@ -177,7 +177,7 @@ class DomicilioController(object):
         self.model.cp = cp
 
         self.model.update()
-        self.redirect()
+        self.ver()
 
     def eliminar(self):
         obj_id = int(environ['REQUEST_URI'].split('/')[-1])

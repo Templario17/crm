@@ -1831,3 +1831,22 @@
 [Wed Oct 04 09:34:19.722765 2017] [cgi:error] [pid 3974] [client 127.0.0.1:43060] AH01215:     recurso = uri[2]
 [Wed Oct 04 09:34:19.722786 2017] [cgi:error] [pid 3974] [client 127.0.0.1:43060] AH01215: IndexError: list index out of range
 [Wed Oct 04 09:34:19.722811 2017] [cgi:error] [pid 3974] [client 127.0.0.1:43060] End of script output before headers: xfc.py
+[Wed Oct 04 12:08:55.539549 2017] [cgi:error] [pid 3975] [client 127.0.0.1:45498] AH01215: Traceback (most recent call last):
+[Wed Oct 04 12:08:55.539628 2017] [cgi:error] [pid 3975] [client 127.0.0.1:45498] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Wed Oct 04 12:08:55.539641 2017] [cgi:error] [pid 3975] [client 127.0.0.1:45498] AH01215:     recurso = uri[2]
+[Wed Oct 04 12:08:55.539658 2017] [cgi:error] [pid 3975] [client 127.0.0.1:45498] AH01215: IndexError: list index out of range
+[Wed Oct 04 12:08:55.541325 2017] [cgi:error] [pid 3975] [client 127.0.0.1:45498] End of script output before headers: xfc.py
+[Wed Oct 04 12:10:30.168206 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] AH01215: Traceback (most recent call last):
+[Wed Oct 04 12:10:30.168268 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 17, in <module>
+[Wed Oct 04 12:10:30.168277 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] AH01215:     getattr(c, recurso)()
+[Wed Oct 04 12:10:30.168299 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] AH01215:   File "/home/debian/server/crm/rootsystem/application/modules/producto.py", line 140, in actualizar
+[Wed Oct 04 12:10:30.168311 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] AH01215:     producto_id = form["producto_id"].value
+[Wed Oct 04 12:10:30.168326 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__
+[Wed Oct 04 12:10:30.180231 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] AH01215:     raise KeyError, key
+[Wed Oct 04 12:10:30.180259 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] AH01215: KeyError: 'producto_id'
+[Wed Oct 04 12:10:30.183349 2017] [cgi:error] [pid 8412] [client 127.0.0.1:45520] End of script output before headers: xfc.py
+[Thu Oct 05 10:04:10.823369 2017] [cgi:error] [pid 1228] [client 127.0.0.1:57990] AH01215: Traceback (most recent call last):
+[Thu Oct 05 10:04:10.853303 2017] [cgi:error] [pid 1228] [client 127.0.0.1:57990] AH01215:   File "/home/debian/server/crm/rootsystem/application/xfc.py", line 12, in <module>
+[Thu Oct 05 10:04:10.853332 2017] [cgi:error] [pid 1228] [client 127.0.0.1:57990] AH01215:     recurso = uri[2]
+[Thu Oct 05 10:04:10.853352 2017] [cgi:error] [pid 1228] [client 127.0.0.1:57990] AH01215: IndexError: list index out of range
+[Thu Oct 05 10:04:10.853375 2017] [cgi:error] [pid 1228] [client 127.0.0.1:57990] End of script output before headers: xfc.py

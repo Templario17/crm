@@ -122,7 +122,7 @@ class DatodecontactoController(object):
         self.model.valor = valor
 
         self.model.insert()
-        self.view.guardar()
+        self.redirect()
 
 
     def ver(self):
@@ -136,6 +136,7 @@ class DatodecontactoController(object):
         self.model.datodecontacto_id = p_id
         self.model.select()
         self.view.editar(self.model)
+        
 
     def actualizar(self):
         form = FieldStorage()
@@ -148,7 +149,7 @@ class DatodecontactoController(object):
         self.model.valor = valor
 
         self.model.update()
-        self.view.editar(self.model)
+        self.redirect()
 
 
     def eliminar(self):
@@ -156,12 +157,18 @@ class DatodecontactoController(object):
         self.model.datodecontacto_id = obj_id
 
         self.model.delete()
-        self.view.eliminar()
+        self.redirect()
+        
 
     def listar(self):
         obj = Collector()
         obj.get("DatoDeContacto")
         self.view.listar(obj.coleccion)
+    
+    def redirect(self):
+        print "Content-type: text/html; charset=utf-8"
+        print "Location: http://crm.local/datodecontacto/listar"
+        print ""
 
 
 class DatoDeContactoHelper(object):
